@@ -10,6 +10,13 @@
 
 A curated list of papers, projects, and resources at the intersection of large language models and mental health support. 
 
+### To be added
+
+- [ ] CARE-Bench: A Benchmark of Diverse Client Simulations Guided by Expert Principles for Evaluating LLMs in Psychological Counseling `Benchmark` `Simulated Client`
+- [ ] MindEval: Benchmarking Language Models on Multi-turn Mental Health Support `Benchmark` `Simulated Client`
+- [ ] Consistent Client Simulation for Motivational Interviewing-based Counseling `Simulated Client`
+- [ ] Introducing CounselMe: A Dataset of Simulated Mental Health Dialogues for Comparing LLMs like Haiku, LlamaNTino and ChatGPT Against Humans `Simulated Client` `Dataset`
+
 ## 2025
 
 <details>
@@ -256,6 +263,7 @@ A curated list of papers, projects, and resources at the intersection of large l
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
     ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    
     > Source: ACL 2024 Findings [[Link]](https://aclanthology.org/2024.findings-acl.830/)
     
     Proposes a framework CPsyCoun for reconstructing multi-turn dialogues based on Chinese psychological counseling reports. This work not only constructs a high-quality dialogue dataset but also develops an evaluation benchmark including AI automatic scoring for effectively evaluating multi-turn psychological counseling processes.

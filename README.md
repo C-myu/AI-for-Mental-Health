@@ -1,4 +1,4 @@
-# AI-Counseling 💭
+# AI for Mental Health 💭
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square"></a>
@@ -18,7 +18,7 @@
 
 ## 📑 Table of Contents
 
-- [AI-Counseling 💭](#ai-counseling-)
+- [AI for Mental Health 💭](#ai-for-mental-health-)
   - [📑 Table of Contents](#-table-of-contents)
   - [🏷️ Taxonomy \& Legend](#️-taxonomy--legend)
   - [🚧 To Be Added](#-to-be-added)
@@ -56,7 +56,8 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] **CARE-Bench**: A Benchmark of Diverse Client Simulations Guided by Expert Principles for Evaluating LLMs in Psychological Counseling `Benchmark` `Simulated Client`
 - [ ] **MindEval**: Benchmarking Language Models on Multi-turn Mental Health Support `Benchmark` `Simulated Client`
 - [ ] **Consistent Client Simulation** for Motivational Interviewing-based Counseling `Simulated Client`
-- [ ] **Introducing CounselMe**: A Dataset of Simulated Mental Health Dialogues for Comparing LLMs like Haiku, LlamaNTino and ChatGPT Against Humans
+- [ ] **Introducing CounselMe**: A Dataset of Simulated Mental Health Dialogues for Comparing LLMs like Haiku, LlamaNTino and ChatGPT Against Humans `Simulated Client` `Dataset`
+- [ ] **SocialSim**: Towards Socialized Simulation of Emotional Support Conversation `Simulated Client`
 
 ---
 
@@ -72,7 +73,7 @@ The papers and projects in this list are categorized using the following tags:
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
 
     > **Source:** arXiv (2025.09.04) [[Link]](https://arxiv.org/abs/2509.04183)
-    
+
     Proposes a novel multi-agent framework MAGneT for generating synthetic mental health counseling dialogues. The framework decomposes the counselor's response generation task into subtasks collaboratively handled by multiple specialized LLM agents (responsible for reflecting, questioning, providing solutions, and other key psychological techniques) to better capture the structure and nuances of real counseling sessions.
   
 - **DiaCBT: A Long-Periodic Dialogue Corpus Guided by Cognitive Conceptualization Diagram for CBT-based Psychological Counseling**

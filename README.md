@@ -57,7 +57,13 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] **MindEval**: Benchmarking Language Models on Multi-turn Mental Health Support `Benchmark` `Simulated Client`
 - [ ] **Consistent Client Simulation** for Motivational Interviewing-based Counseling `Simulated Client`
 - [ ] **Introducing CounselMe**: A Dataset of Simulated Mental Health Dialogues for Comparing LLMs like Haiku, LlamaNTino and ChatGPT Against Humans `Simulated Client` `Dataset`
-- [ ] **SocialSim**: Towards Socialized Simulation of Emotional Support Conversation `Simulated Client`
+- [ ] **SocialSim**: Towards Socialized Simulation of Emotional Support Conversation `Dataset` `Scripts Generation`
+- [ ] **Unlocking LLMs**: Addressing Scarce Data and Bias Challenges in Mental Health `Dataset`
+- [ ] Analysis and Evaluation of AnnoMI, a Dataset of Expert-Annotated Counselling Dialogues `Dataset`
+- [ ] A Cognitive Stimulation Dialogue System with Multi-source Knowledge Fusion for Elders with Cognitive Impairment `Dataset`
+- [ ] **PsyGUARD**: An Automated System for Suicide Detection and Risk Assessment in Psychological Counseling `Dataset`
+- [ ] A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions `ACL 2025 Fingdings` `Survey`
+- [ ] From Pattern Recognizers to Personalized  Companions: A Survey of Large Language  Models in Mental Health `Survey`
 
 ---
 

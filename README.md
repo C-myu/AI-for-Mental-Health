@@ -64,6 +64,7 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] **PsyGUARD**: An Automated System for Suicide Detection and Risk Assessment in Psychological Counseling `Dataset`
 - [ ] A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions `ACL 2025 Fingdings` `Survey`
 - [ ] From Pattern Recognizers to Personalized  Companions: A Survey of Large Language  Models in Mental Health `Survey`
+- [ ] Self-chats from Large Language Models Make Small Emotional Support Chatbot Better `ACL 2024 Main` `Dataset`
 
 ---
 

@@ -65,6 +65,9 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions `ACL 2025 Fingdings` `Survey`
 - [ ] From Pattern Recognizers to Personalized  Companions: A Survey of Large Language  Models in Mental Health `Survey`
 - [ ] Self-chats from Large Language Models Make Small Emotional Support Chatbot Better `ACL 2024 Main` `Dataset`
+- [ ] Beyond Empathy: Integrating Diagnostic and Therapeutic Reasoning with Large Language Models for Mental Health Counseling `Dataset` `Chain-of-Thought`
+- [ ] **TheraMind**: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling `Dialogue System` `Multi-Session`
+- [ ] Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations `Dataset` `Multi-Session`
 
 ---
 

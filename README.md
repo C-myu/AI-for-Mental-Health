@@ -2,8 +2,8 @@
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square"></a>
-  <a href="https://github.com/C-myu/AI-Counseling/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
-  <a href="https://github.com/C-myu/AI-Counseling/stargazers"><img src="https://img.shields.io/github/stars/C-myu/AI-Counseling.svg?style=social"></a>
+  <a href="https://github.com/C-myu/AI-for-Mental-Health/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
+  <a href="https://github.com/C-myu/AI-for-Mental-Health/stargazers"><img src="https://img.shields.io/github/stars/C-myu/AI-for-Mental-Health.svg?style=social"></a>
 </p>
 
 <p align="center">

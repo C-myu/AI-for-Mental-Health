@@ -364,7 +364,7 @@ The papers and projects in this list are categorized using the following tags:
 
     > **Source:** IJCAI 2024 / arXiv (2024.06) [[Link]](https://arxiv.org/abs/2406.08718)
 
-    Proposes a data augmentation pipeline that uses large language models to transform single-turn psychotherapy counseling dialogues into multi-turn interactions. This method addresses the scarcity of multi-turn dialogue data through two steps: "information extraction" and "multi-turn counseling generation," generating more realistic and practical training data.
+    This work proposes a data augmentation pipeline that uses large language models to transform single-turn psychotherapy counseling dialogues into multi-turn interactions. This method addresses the scarcity of multi-turn dialogue data through two steps: "information extraction" and "multi-turn counseling generation," generating more realistic and practical training data.
 
 - **ESCoT: Towards Interpretable Emotional Support Dialogue Systems**
 

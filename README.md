@@ -148,7 +148,7 @@ The papers and projects in this list are categorized using the following tags:
 
 - **PanicToCalm: A Proactive Counseling Agent for Panic Attacks**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)  
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
     ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
     ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)

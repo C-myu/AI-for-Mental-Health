@@ -44,6 +44,7 @@ The papers and projects in this list are categorized using the following tags:
 | | ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow) | Complete chatbot or dialogue system frameworks. |
 | | ![Emotional Support](https://img.shields.io/badge/Emotional_Support-cornflowerblue) | Focused on empathy and emotional support capabilities. |
 | | ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-yellowgreen) | Focused on diagnosis and clinical assessment. |
+| | ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey) | Benchmarks or evaluation suites for assessing LLMs in mental health tasks. |
 | **Other** | ![Multi Modal](https://img.shields.io/badge/Multi_Modal-magenta) | Involving images, audio, or video alongside text. |
 | | ![Patient Simulation](https://img.shields.io/badge/Patient_Simulation-red) | Simulating clients/patients for training or evaluation. |
 
@@ -53,9 +54,9 @@ The papers and projects in this list are categorized using the following tags:
 
 > *Work in progress. PRs are welcome to update these entries.*
 
-- [ ] **CARE-Bench**: A Benchmark of Diverse Client Simulations Guided by Expert Principles for Evaluating LLMs in Psychological Counseling `Benchmark` `Simulated Client`
-- [ ] **MindEval**: Benchmarking Language Models on Multi-turn Mental Health Support `Benchmark` `Simulated Client`
-- [ ] **Consistent Client Simulation** for Motivational Interviewing-based Counseling `Simulated Client`
+- [x] **CARE-Bench**: A Benchmark of Diverse Client Simulations Guided by Expert Principles for Evaluating LLMs in Psychological Counseling `Benchmark` `Simulated Client`
+- [x] **MindEval**: Benchmarking Language Models on Multi-turn Mental Health Support `Benchmark` `Simulated Client`
+- [x] **Consistent Client Simulation** for Motivational Interviewing-based Counseling `Simulated Client`
 - [ ] **Introducing CounselMe**: A Dataset of Simulated Mental Health Dialogues for Comparing LLMs like Haiku, LlamaNTino and ChatGPT Against Humans `Simulated Client` `Dataset`
 - [ ] **SocialSim**: Towards Socialized Simulation of Emotional Support Conversation `Dataset` `Scripts Generation`
 - [ ] **Unlocking LLMs**: Addressing Scarce Data and Bias Challenges in Mental Health `Dataset`
@@ -66,8 +67,9 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] From Pattern Recognizers to Personalized  Companions: A Survey of Large Language  Models in Mental Health `Survey`
 - [ ] Self-chats from Large Language Models Make Small Emotional Support Chatbot Better `ACL 2024 Main` `Dataset`
 - [ ] Beyond Empathy: Integrating Diagnostic and Therapeutic Reasoning with Large Language Models for Mental Health Counseling `Dataset` `Chain-of-Thought`
-- [ ] **TheraMind**: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling `Dialogue System` `Multi-Session`
+- [ ] **TheraMind**: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling `Dialogue System` `Multi-Session` `Simulated Client`
 - [ ] Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations `Dataset` `Multi-Session`
+- [ ] **EmoBench-M**: Benchmarking Emotional Intelligence for Multimodal Large Language Models `Benchmark` `Multi-Modal`
 
 ---
 
@@ -75,6 +77,24 @@ The papers and projects in this list are categorized using the following tags:
 
 <details open>
 <summary><b>Click to collapse/expand</b></summary>
+
+- **MindEval: Benchmarking Language Models on Multi-turn Mental Health Support**
+
+    ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
+
+    > **Source:** arXiv (2025.11.23) [[Link]](https://www.arxiv.org/abs/2511.18491)
+
+    This work propose a multi-turn dialogue assessment benchmark specifically designed for mental health support. The method utilizes diverse "patient surrogate" simulations to cover real-world counseling scenarios encompassing various psychological distresses. It constructs a rigorous scoring system that includes safety, empathic expression, and counseling skills based on CBT theory. The assessment is automated using an LLM-as-a-Judge paradigm calibrated by human clinical experts, effectively measuring and revealing the limitations and potential risks of mainstream, universally applicable models (such as GPT-4 and Claude 3) in handling complex psychodynamics, maintaining long-term therapeutic alliances, and coping with high-risk scenarios.
+
+- **CARE-Bench: A Benchmark of Diverse Client Simulations Guided by Expert Principles for Evaluating LLMs in Psychological Counseling**
+
+    ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
+
+    > **Source:** arXiv (2025.11.12) [[Link]](https://arxiv.org/abs/2511.09407)
+
+    To address the issues of unrealistic client simulations, static and simplistic interaction formats, and a lack of professional depth in assessment indicators in existing large-scale psychological counseling evaluation models, this paper proposes CARE-Bench. This is a dynamic, multi-turn dialogue benchmark comprising 500 simulated client profiles derived from real counseling cases. The core of this method lies in employing an "Expert-Principle-Guided Simulation," where psychologists customize specific behavioral guidelines for each profile to constrain the LLM (Lesson-Led Model) posing as the client, thereby ensuring high fidelity and clinical authenticity in the interaction process. For assessment, the paper introduces multidimensional psychological scales including Working Alliance (WAI), Embrace Understanding (BLRI), and Counseling Skills-Responsiveness (CCS-R).
 
 - **MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions**
 
@@ -239,6 +259,15 @@ The papers and projects in this list are categorized using the following tags:
     > **Source:** ACL 2025 Findings [[Link]](https://arxiv.org/abs/2506.05947)
 
     For the first time, focuses research attention on the importance of "supporter intentions" in emotional support dialogues. The paper proposes the IntentionESC framework, defines potential intentions of supporters, and designs the ICECoT (Intention-Centered Chain-of-Thought) mechanism, enabling LLMs to mimic humans' reasoning process of analyzing emotional states, inferring intentions, and selecting strategies to generate more effective supportive responses.
+
+- **Consistent Client Simulation for Motivational Interviewing-based Counseling**
+
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > **Source:** ACL 2025 Main [[Link]](https://aclanthology.org/2025.acl-long.1021/)
+
+    To address the shortcomings of existing client simulation methods in psychological counseling, such as difficulty maintaining behavioral consistency in complex dialogues and frequent neglect of the dynamic transition of psychological states, this paper proposes a client simulation framework for motivational interviewing. This framework comprises four core modules: state transition, action selection, information selection, and response generation. By leveraging domain knowledge extracted from the real-world counseling dataset (AnnoMI), it explicitly tracks and controls the simulated client's psychological state, receptivity, and action distribution based on the current state.
 
 </details>
 

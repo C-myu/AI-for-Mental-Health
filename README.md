@@ -70,7 +70,7 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] **TheraMind**: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling `Dialogue System` `Multi-Session` `Simulated Client`
 - [ ] Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations `Dataset` `Multi-Session`
 - [ ] **EmoBench-M**: Benchmarking Emotional Intelligence for Multimodal Large Language Models `Benchmark` `Multi-Modal`
-- [x] **𝜓-ARENA**: Interactive Assessment and Optimization of LLM-based Psychological Counselors with Tripartite Feedback `Benchmark` `Simulated Client`
+- [x] **$\Psi$-ARENA**: Interactive Assessment and Optimization of LLM-based Psychological Counselors with Tripartite Feedback `Benchmark` `Simulated Client`
 
 ---
 

@@ -71,6 +71,8 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations `Dataset` `Multi-Session`
 - [ ] **EmoBench-M**: Benchmarking Emotional Intelligence for Multimodal Large Language Models `Benchmark` `Multi-Modal`
 - [x] **$\Psi$-ARENA**: Interactive Assessment and Optimization of LLM-based Psychological Counselors with Tripartite Feedback `Benchmark` `Simulated Client`
+- [ ] **CBT-Bench**: Evaluating Large Language Models on Assisting Cognitive Behavior Therapy `Becnchmark` `Specific Therapy` `NAACL 2025`
+- [ ] **ESC-Eval**: Evaluating Emotion Support Conversations in Large Language Models `Benchmark` `ESC` `EMNLP 2024`
 
 ---
 

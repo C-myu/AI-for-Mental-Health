@@ -46,7 +46,7 @@ The papers and projects in this list are categorized using the following tags:
 | | ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-yellowgreen) | Focused on diagnosis and clinical assessment. |
 | | ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey) | Benchmarks or evaluation suites for assessing LLMs in mental health tasks. |
 | **Other** | ![Multi Modal](https://img.shields.io/badge/Multi_Modal-magenta) | Involving images, audio, or video alongside text. |
-| | ![Patient Simulation](https://img.shields.io/badge/Patient_Simulation-red) | Simulating clients/patients for training or evaluation. |
+| | ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red) | Simulating clients/patients for training or evaluation. |
 
 ---
 
@@ -58,18 +58,19 @@ The papers and projects in this list are categorized using the following tags:
 - [x] **MindEval**: Benchmarking Language Models on Multi-turn Mental Health Support `Benchmark` `Simulated Client`
 - [x] **Consistent Client Simulation** for Motivational Interviewing-based Counseling `Simulated Client`
 - [ ] **Introducing CounselMe**: A Dataset of Simulated Mental Health Dialogues for Comparing LLMs like Haiku, LlamaNTino and ChatGPT Against Humans `Simulated Client` `Dataset`
-- [ ] **SocialSim**: Towards Socialized Simulation of Emotional Support Conversation `Dataset` `Scripts Generation`
-- [ ] **Unlocking LLMs**: Addressing Scarce Data and Bias Challenges in Mental Health `Dataset`
-- [ ] Analysis and Evaluation of AnnoMI, a Dataset of Expert-Annotated Counselling Dialogues `Dataset`
+- [ ] **SocialSim**: Towards Socialized Simulation of Emotional Support Conversation `Dataset` `Scripts Generation` `ESC`
+- [ ] **Unlocking LLMs**: Addressing Scarce Data and Bias Challenges in Mental Health `Dataset` `IC-Annomi`
+- [ ] Analysis and Evaluation of AnnoMI, a Dataset of Expert-Annotated Counselling Dialogues `Dataset` `Annomi`
 - [ ] A Cognitive Stimulation Dialogue System with Multi-source Knowledge Fusion for Elders with Cognitive Impairment `Dataset`
 - [ ] **PsyGUARD**: An Automated System for Suicide Detection and Risk Assessment in Psychological Counseling `Dataset`
 - [ ] A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions `ACL 2025 Fingdings` `Survey`
 - [ ] From Pattern Recognizers to Personalized  Companions: A Survey of Large Language  Models in Mental Health `Survey`
-- [ ] Self-chats from Large Language Models Make Small Emotional Support Chatbot Better `ACL 2024 Main` `Dataset`
+- [x] Self-chats from Large Language Models Make Small Emotional Support Chatbot Better `ACL 2024 Main` `Dataset` `ExTES`
 - [ ] Beyond Empathy: Integrating Diagnostic and Therapeutic Reasoning with Large Language Models for Mental Health Counseling `Dataset` `Chain-of-Thought`
 - [ ] **TheraMind**: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling `Dialogue System` `Multi-Session` `Simulated Client`
 - [ ] Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations `Dataset` `Multi-Session`
 - [ ] **EmoBench-M**: Benchmarking Emotional Intelligence for Multimodal Large Language Models `Benchmark` `Multi-Modal`
+- [x] **𝜓-ARENA**: Interactive Assessment and Optimization of LLM-based Psychological Counselors with Tripartite Feedback `Benchmark` `Simulated Client`
 
 ---
 
@@ -203,6 +204,15 @@ The papers and projects in this list are categorized using the following tags:
 
     Existing large models used in psychological counseling only focus on the text modality, ignoring non-text modal information in the real world. To address this gap, this work constructs a multi-turn counseling dialogue dataset, M2CoSC, which includes an image modality. Each multi-turn dialogue is accompanied by an image with the client's facial expressions. A multi-hop reasoning method for psychological counseling is proposed to identify and merge subtle counseling cues.
 
+- **$\Psi$-ARENA**: Interactive Assessment and Optimization of LLM-based Psychological Counselors with Tripartite Feedback
+  
+    ![Benchmark](https://img.shields.io/badge/Benchmark-red)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
+
+    > **Source:** arxiv  (2025.03.01) [[Link]](http://arxiv.org/abs/2505.03293)
+
+    Existing evaluations of LLM-based counselors are limited by static knowledge tests and a single-perspective focus, lacking the actionable feedback loops required for professional improvement. To bridge this gap, this work introduces $\Psi$-ARENA, a framework featuring realistic multi-stage counseling simulations with NPC clients evaluated through a $360^{\circ}$ tripartite perspective involving the client, supervisor, and counselor. This system incorporates a closed-loop optimization cycle where models iteratively refine their counseling strategies through diagnostic-driven self-reflection, achieving substantial performance gains.
+
 - **DeepPsy-Agent: A Stage-Aware and Deep-Thinking Emotional Support Agent System**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
@@ -304,13 +314,13 @@ The papers and projects in this list are categorized using the following tags:
 
     This paper propose a LLM-to-LLM interaction framework, where one LLM simulates the client and the other simulates an experienced consultant. We use the GPT-4 model to simulate multiple consultation rounds between consultants and clients using zero-shot prompts to collect a dataset.
 
-- **PATIENT-𝜓: Using Large Language Models to Simulate Patients for Training Mental Health Professionals**
+- **PATIENT-$\Psi$: Using Large Language Models to Simulate Patients for Training Mental Health Professionals**
 
-    ![Patient simulation](https://img.shields.io/badge/Patient_Simulation-red)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
 
     > **Source:** EMNLP 2024 Main [[Link]](https://aclanthology.org/2024.emnlp-main.711/)
 
-    PATIENT-𝜓 is a framework for training mental health professionals in cognitive behavioral therapy (CBT) by simulating patients using large language models (LLMs). By constructing a diverse patient cognitive model based on CBT principles and combining it with LLMs, we created PATIENT-𝜓, which can simulate the communication behaviors of real patients.
+    PATIENT-$\Psi$ is a framework for training mental health professionals in cognitive behavioral therapy (CBT) by simulating patients using large language models (LLMs).
 
 - **CACTUS: Towards Psychological Counseling Conversations using Cognitive Behavioral Theory**
 
@@ -383,6 +393,15 @@ The papers and projects in this list are categorized using the following tags:
     > **Source:** ACL 2024 Main [[Link]](https://aclanthology.org/2024.acl-long.93/)
 
     Previous LLM methods used for "cognitive reframing" have mostly been limited to simple sentence rewriting (e.g., converting negative emotions into positive ones). This approach has limited effectiveness and fails to truly guide clients towards self-discovery. This work proposes a method that uses interactive generation to construct data for multi-turn cognitive reframing dialogues.
+
+- **Self-chats from Large Language Models Make Small Emotional Support Chatbot Better**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > **Source:** ACL 2024 Main [[Link]](https://aclanthology.org/2024.acl-long.611/)
+
+    Deploying large language models for emotional support is computationally expensive, while smaller models often fail to navigate diverse real-world scenarios due to limited data. To address this, this work proposes a teacher-student framework that utilizes a large model to iteratively curate a dataset (ExTES) spanning 36 scenarios and 16 strategies from 100 seed dialogues. This approach is further enhanced by a Diverse Response Inpainting (DRI) mechanism, which generates multiple consistent responses for the same context to effectively fine-tune compact student models.
 
 - **Towards Conversational Diagnostic AI**
 

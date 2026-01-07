@@ -73,6 +73,7 @@ The papers and projects in this list are categorized using the following tags:
 - [x] **$\Psi$-ARENA**: Interactive Assessment and Optimization of LLM-based Psychological Counselors with Tripartite Feedback `Benchmark` `Simulated Client`
 - [ ] **CBT-Bench**: Evaluating Large Language Models on Assisting Cognitive Behavior Therapy `Becnchmark` `Specific Therapy` `NAACL 2025`
 - [ ] **ESC-Eval**: Evaluating Emotion Support Conversations in Large Language Models `Benchmark` `ESC` `EMNLP 2024`
+- [ ] **Roleplaying with Structure**: Synthetic Therapist-Client Conversation Generation from Questionnaires `Dataset` `Interactive Generation`
 
 ---
 

@@ -60,7 +60,7 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] **Introducing CounselMe**: A Dataset of Simulated Mental Health Dialogues for Comparing LLMs like Haiku, LlamaNTino and ChatGPT Against Humans `Simulated Client` `Dataset`
 - [ ] **SocialSim**: Towards Socialized Simulation of Emotional Support Conversation `Dataset` `Scripts Generation` `ESC`
 - [ ] **Unlocking LLMs**: Addressing Scarce Data and Bias Challenges in Mental Health `Dataset` `IC-Annomi`
-- [ ] Analysis and Evaluation of AnnoMI, a Dataset of Expert-Annotated Counselling Dialogues `Dataset` `Annomi`
+- [x] Analysis and Evaluation of AnnoMI, a Dataset of Expert-Annotated Counselling Dialogues `Dataset` `Annomi`
 - [ ] A Cognitive Stimulation Dialogue System with Multi-source Knowledge Fusion for Elders with Cognitive Impairment `Dataset`
 - [ ] **PsyGUARD**: An Automated System for Suicide Detection and Risk Assessment in Psychological Counseling `Dataset`
 - [ ] A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions `ACL 2025 Fingdings` `Survey`
@@ -424,6 +424,14 @@ The papers and projects in this list are categorized using the following tags:
 
     EmoLLM is a series of large-scale mental health dialogue models open-sourced by SmartFlowAI. By fine-tuning instructions on these large-scale models, EmoLLM models are equipped with the psychological counseling capabilities to understand, support, and help users, providing emotional support and mental health advice. The open-source model configurations and datasets aim to promote development in this field and encourage the community to continuously optimize model capabilities and security.
 
+- **Unlocking LLMs: Addressing Scarce Data and Bias Challenges in Mental Health**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+
+    > **Source:** NLPAICS 2024 [[Link]](https://aclanthology.org/2024.nlpaics-1.26/)
+
+    Addressing data scarcity and bias in mental health AI, this work introduces IC-AnnoMI, an augmented dataset created using Large Language Models (LLMs). The authors employed a "progressive prompting" strategy with ChatGPT to generate in-context synthetic dialogues that preserve original therapeutic intent while enriching the text. These synthetic samples underwent rigorous expert annotation based on the MISC scheme to ensure psychological and linguistic validity. Experiments showed that training on this augmented data mitigates class imbalance and improves the performance of transformer models in classifying MI quality.
+
 </details>
   
 ## 📅 2023
@@ -466,6 +474,18 @@ The papers and projects in this list are categorized using the following tags:
     > **Source:** East China University of Science and Technology (2023) [[Link]](https://github.com/X-D-Lab/MindChat)
 
     Trained with approximately 200,000 high-quality multi-turn psychological dialogue data manually cleaned, covering multiple aspects including work, family, study, life, social interactions, and safety. Its purpose is to help people relieve psychological stress and solve psychological confusions from four dimensions: psychological counseling, psychological assessment, psychological diagnosis, and psychological treatment, thereby improving mental health levels.
+
+- **Anno-MI: A Dataset of Expert-Annotated Counselling Dialogues**
+
+    ![Data Collection](https://img.shields.io/badge/Data_Collection-deepskyblue)
+
+    > **Source:** ICASSP 2022 [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9746035)
+
+    This work introduces AnnoMI, a corpus of expert-annotated Motivational Interviewing (MI) dialogues. The authors curated 133 complete conversations sourced from high- and low-quality MI demonstration videos on platforms like YouTube and Vimeo, covering topics such as smoking cessation and alcohol reduction. Ten professional therapists with specialized experience from the Motivational Interviewing Network of Trainers (MINT) were asked to annotate the transcripts. These experts applied a coding scheme inspired by standard MI protocols (MISC) to label therapist utterances into four behaviors (Question, Input, Reflection, Other) and client utterances into three talk types (Change, Neutral, Sustain). 
+
+    > Extended paper from *Anno-MI*: **Analysis and Evaluation of AnnoMI, a Dataset of Expert-Annotated Counselling Dialogues** - (Future Internet 2023, 15(3): 110) [[Link]](https://www.mdpi.com/1999-5903/15/3/110)
+
+    >> This study presents a expansion and evaluation of the AnnoMI dataset to facilitate the development of computational models for therapy quality monitoring. Building on the collection of 133 professionally transcribed Motivational Interviewing (MI) dialogues, the authors validated the dataset's realism through a survey where the professional annotators confirmed that the demonstration videos faithfully reflect real-world clinical interactions. The methodology extends beyond simple statistics to include deep analyses of conversation dynamics, such as posterior distributions of dialogue turns and the progression of client "change talk" over the course of a session. Crucially, the work establishes machine learning benchmarks by defining two specific utterance-level classification tasks: Therapist Behaviour Prediction and Client Talk Type Prediction. The researchers trained and evaluated multiple models, including CNNs and BERT variants (with and without adapters), to set baseline performance metrics for these tasks. Furthermore, the study investigated the impact of dialogue topics on model performance, assessing how well classifiers trained on specific issues (e.g., alcohol reduction) generalize to unseen topics (e.g., smoking cessation).
 
 </details>
 

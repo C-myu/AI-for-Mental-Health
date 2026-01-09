@@ -59,7 +59,7 @@ The papers and projects in this list are categorized using the following tags:
 - [x] **Consistent Client Simulation** for Motivational Interviewing-based Counseling `Simulated Client`
 - [ ] **Introducing CounselMe**: A Dataset of Simulated Mental Health Dialogues for Comparing LLMs like Haiku, LlamaNTino and ChatGPT Against Humans `Simulated Client` `Dataset`
 - [ ] **SocialSim**: Towards Socialized Simulation of Emotional Support Conversation `Dataset` `Scripts Generation` `ESC`
-- [ ] **Unlocking LLMs**: Addressing Scarce Data and Bias Challenges in Mental Health `Dataset` `IC-Annomi`
+- [x] **Unlocking LLMs**: Addressing Scarce Data and Bias Challenges in Mental Health `Dataset` `IC-Annomi`
 - [x] Analysis and Evaluation of AnnoMI, a Dataset of Expert-Annotated Counselling Dialogues `Dataset` `Annomi`
 - [ ] A Cognitive Stimulation Dialogue System with Multi-source Knowledge Fusion for Elders with Cognitive Impairment `Dataset`
 - [ ] **PsyGUARD**: An Automated System for Suicide Detection and Risk Assessment in Psychological Counseling `Dataset`

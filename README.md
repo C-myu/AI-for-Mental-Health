@@ -75,6 +75,7 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] **ESC-Eval**: Evaluating Emotion Support Conversations in Large Language Models `Benchmark` `ESC` `EMNLP 2024`
 - [ ] **Roleplaying with Structure**: Synthetic Therapist-Client Conversation Generation from Questionnaires `Dataset` `Interactive Generation`
 - [ ] **MindChat**: A Privacy-preserving Large Language Model for Mental Health Support
+- [ ] **PsychEval**: A Multi-Session and Multi-Therapy Benchmark for High-Realism AI Psychological Counselor `Benchmark` `Multi-Session` `Multi-Therapy`
 
 ---
 

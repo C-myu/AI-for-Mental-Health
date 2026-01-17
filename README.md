@@ -74,6 +74,7 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] **CBT-Bench**: Evaluating Large Language Models on Assisting Cognitive Behavior Therapy `Becnchmark` `Specific Therapy` `NAACL 2025`
 - [ ] **ESC-Eval**: Evaluating Emotion Support Conversations in Large Language Models `Benchmark` `ESC` `EMNLP 2024`
 - [ ] **Roleplaying with Structure**: Synthetic Therapist-Client Conversation Generation from Questionnaires `Dataset` `Interactive Generation`
+- [ ] **MindChat**: A Privacy-preserving Large Language Model for Mental Health Support
 
 ---
 

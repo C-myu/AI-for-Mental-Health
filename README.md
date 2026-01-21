@@ -261,6 +261,15 @@ The papers and projects in this list are categorized using the following tags:
 
     Proposes an autonomous multi-agent framework AutoCBT for cognitive behavioral therapy (CBT). The framework utilizes single-turn counseling data similar to Quora and壹心理 (Yixinli), building a general agent framework capable of generating high-quality responses in single-turn counseling scenarios, and introduces dynamic routing and supervision mechanisms to improve the quality of automated psychological counseling services.
 
+- **From Conversation to Automation: Leveraging LLMs for Problem-Solving Therapy Analysis**
+    
+    ![Data Analysis](https://img.shields.io/badge/Data_Analysis-stteelblue)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > **Source:** ACL 2025 Findings [[Link]](https://aclanthology.org/2025.findings-acl.1292/)
+
+    This paper develops an automated analysis pipeline for Problem-Solving Therapy (PST): it assigns therapist utterances two-dimensional labels (PST core steps and facilitator strategies) and additionally annotates therapeutic dynamics such as autonomy (directive vs. non-directive), self-disclosure, and metaphor. It first evaluates LLMs (notably GPT-4o) on a human-labeled subset for strategy classification and distills pseudo-labeled data to train deployable smaller models. The resulting annotations are then used for large-scale session-level analyses, relating stage/strategy patterns to linguistic cues via LIWC and n-gram statistics.
+
 - **PsyDial: A Large-scale Long-term Conversational Dataset for Mental Health Support**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)

@@ -82,6 +82,17 @@
 <details open>
 <summary><b>点击 折叠/展开</b></summary>
 
+- **MentraSuite: Post-Training Large Language Models for Mental Health Reasoning and Assessment**
+
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
+    ![Data Analysis](https://img.shields.io/badge/Data_Analysis-steelblue)
+    ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-yellowgreen)
+    ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)
+
+    > **来源:** arXiv (2025.12.10) [[链接]](https://arxiv.org/abs/2512.09636)
+
+    介绍了 MentraSuite，一个用于推进可靠心理健康推理的统一框架。它提出了 MentraBench，这是一个涵盖五个核心推理方面（评估、诊断、干预、抽象和验证）、六个任务和 13 个数据集的综合基准，从五个维度评估任务性能和推理质量。该工作进一步提出了 Mindora，这是一个通过混合 SFT–RL 框架和轨迹感知强化学习方法优化的后训练模型，在 MentraBench 上实现了最先进的性能，并展示了卓越的推理可靠性。
+
 - **MindEval: Benchmarking Language Models on Multi-turn Mental Health Support**
 
     ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)

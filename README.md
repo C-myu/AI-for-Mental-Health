@@ -22,6 +22,7 @@
   - [📑 Table of Contents](#-table-of-contents)
   - [🏷️ Taxonomy \& Legend](#️-taxonomy--legend)
   - [🚧 To Be Added](#-to-be-added)
+    - [Newly Found (2025.08-2026.01)](#newly-found-202508-202601)
   - [📅 2025](#-2025)
   - [📅 2024](#-2024)
   - [📅 2023](#-2023)
@@ -42,6 +43,7 @@ The papers and projects in this list are categorized using the following tags:
 | **Methodology** | ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D) | Methods focused on generating counseling dialogues via single LLM text generation. |
 | | ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A) | Methods focused on generating counseling dialogues via two LLMs interacting. |
 | | ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80) | Utilizing CoT reasoning for better counseling logic. |
+| | ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-22C55E) | Utilizing preference learning likes DPO to train models. |
 | **Application** | ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) | Focused on specific therapies (e.g., CBT, SST, MI). |
 | | ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA) | Complete chatbot or dialogue system frameworks. |
 | | ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC) | Focused on empathy and emotional support capabilities. |
@@ -69,7 +71,27 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] **Roleplaying with Structure**: Synthetic Therapist-Client Conversation Generation from Questionnaires `Dataset` `Interactive Generation`
 - [ ] **MindChat**: A Privacy-preserving Large Language Model for Mental Health Support
 - [ ] **PsychEval**: A Multi-Session and Multi-Therapy Benchmark for High-Realism AI Psychological Counselor `Benchmark` `Multi-Session` `Multi-Therapy`
-- [ ] Preference Learning Unlocks LLMs' Psycho-Counseling Skills `Dataset Analysis` `Preference Learning`
+
+### Newly Found (2025.08-2026.01)
+
+- [ ] **Trustworthy AI Psychotherapy**: Multi-Agent LLM Workflow for Counseling and Explainable Mental Disorder Diagnosis `Multi-Agent` `Clinical Diagnostic` `Data Analysis` `arXiv 2508.11398` (Aug 2025)
+- [ ] **LENS**: LLM-Enabled Narrative Synthesis for Mental Health by Aligning Multimodal Sensing with Language Models `Multi-Modal` `Data Analysis` `arXiv 2512.23025` (Dec 2025)
+- [ ] Experiences of Conversational AI Use in Mental Health Crisis: Interviews with Experts `Data Collection` `arXiv 2512.23859` (Dec 2025)
+- [ ] A Comprehensive Review of Datasets for Clinical Mental Health AI Applications `Survey` `Data Analysis` `arXiv 2508.09809` (Aug 2025)
+- [ ] **EmoAgent**: Assessing and Safeguarding Human-AI Interaction for Mental Health Safety `Benchmark` `Multi-Agent` `EMNLP 2025 Main` / `arXiv 2504.09689`
+- [ ] A LLM-based Multi-Agent Collaboration Framework for Emotional Support Conversation `Multi-Agent` `Emotional Support` `EMNLP 2025 Main`
+- [ ] Evaluating Over-Empathizing in Emotional Support Conversations `Emotional Support` `Benchmark` (Jan 2026)
+- [ ] Emotional Support with LLM-based Empathetic Dialogue Generation (NLPCC 2025 Shared Task 8) `Emotional Support` `Benchmark` (Nov 2025)
+- [ ] A Persona-Driven Simulator for Realistic Doctor-Patient Interactions `Simulated Client` `arXiv 2505.17818` (Oct 2025)
+- [ ] Can LLM-Simulated Practice and Feedback Upskill Human Counselors? `Simulated Client` `Data Analysis` `arXiv 2505.02428` (May 2025)
+- [ ] Can LLMs Address Mental Health Questions? A Comparison of Therapist-Written Responses and Chatbot Outputs `Benchmark` `Data Analysis` `arXiv 2509.12102` (Sep 2025)
+- [ ] Examining LLMs for Multi-Turn Mental Health Conversations: A Framework, Dataset and Evaluation `Data Synthesis` `Benchmark` `arXiv 2505.20201` (May 2025)
+- [ ] New Doc on the Block: Scoping Review of AI Systems Delivering Motivational Interviewing for Health Behavior Change `Survey` `Specific Therapy` `JMIR 2025` (Sep 2025)
+- [ ] **CAMI**: A Counselor Agent Supporting Motivational Interviewing `Dialogue System` `Specific Therapy` `ACL 2025 Main` / `arXiv 2502.02807`
+- [ ] Do Large Language Models Align with Core Mental Health Counseling Competencies? `Benchmark` `NAACL 2025 Findings`
+- [ ] The Impact of Fine-Tuning LLMs on the Quality of Automated Therapy Sessions `Data Analysis` `Nature` (Sep 2025)
+- [ ] AI Meets Psychology: An Exploratory Study of Large Language Models in Therapy-Related Responses `Data Analysis` `Survey` (2025)
+- [ ] Large Language Models as Mental Health Resources: Patterns of Use and Perceived Effectiveness `Data Analysis` `APA 2025`
 
 ---
 
@@ -78,11 +100,22 @@ The papers and projects in this list are categorized using the following tags:
 <details open>
 <summary><b>Click to collapse/expand</b></summary>
 
+- **MentraSuite: Post-Training Large Language Models for Mental Health Reasoning and Assessment**
+
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
+    ![Data Analysis](https://img.shields.io/badge/Data_Analysis-60A5FA)
+    ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-A855F7)
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
+
+    > **Source:** arXiv (2025.12.10) [[Link]](https://arxiv.org/abs/2512.09636)
+
+    Introduces MentraSuite, a unified framework for advancing reliable mental-health reasoning. It proposes MentraBench, a comprehensive benchmark spanning five core reasoning aspects (appraisal, diagnosis, intervention, abstraction, and verification), six tasks, and 13 datasets, evaluating both task performance and reasoning quality across five dimensions. The work further presents Mindora, a post-trained model optimized through a hybrid SFT–RL framework with a trajectory-aware reinforcement learning approach, which achieves state-of-the-art performance on MentraBench and demonstrates superior reasoning reliability.
+
 - **PsycheChat: An Empathic Framework Focused on Emotion Shift Tracking and Safety Risk Analysis in Psychological Counseling**
 
     ![Special Therapy](https://img.shields.io/badge/Special_Therapy-purple)
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
-    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A) 
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A)
 
     > **Source:** arXiv (2026.1.18) [[Link]](https://arxiv.org/abs/2601.12392)
 
@@ -173,6 +206,8 @@ The papers and projects in this list are categorized using the following tags:
 
 - **AuraDial: A Large-Scale Human-Centric Dialogue Dataset for Chinese AI Psychological Counseling**
 
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+
     > **Source:** EMNLP 2025 Findings [[Link]](https://aclanthology.org/2025.findings-emnlp.155/)
 
     Existing Chinese AI-powered psychological counseling datasets suffer from insufficient authenticity and a lack of deep empathy, as their "user questions" are mostly artificially synthesized or templated, while the "AI responses" lack human touch. To address this issue, this paper proposes AURADIAL, a large-scale, human-centered Chinese AI-powered psychological counseling dialogue dataset containing over 300,000 single-turn and over 90,000-turn dialogues.
@@ -231,7 +266,7 @@ The papers and projects in this list are categorized using the following tags:
     ![Benchmark](https://img.shields.io/badge/Benchmark-red)
     ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
 
-    > **Source:** NAACL 2025 Main [[Link]](https://aclanthology.org/2025.naacl-long.250/)
+    > **Source:** arxiv (2025.05.06) [[Link]](https://arxiv.org/abs/2505.03293)
 
     Existing evaluations of LLM-based counselors are limited by static knowledge tests and a single-perspective focus, lacking the actionable feedback loops required for professional improvement. To bridge this gap, this work introduces $\Psi$-ARENA, a framework featuring realistic multi-stage counseling simulations with NPC clients evaluated through a $360^{\circ}$ tripartite perspective involving the client, supervisor, and counselor. This system incorporates a closed-loop optimization cycle where models iteratively refine their counseling strategies through diagnostic-driven self-reflection, achieving substantial performance gains.
 
@@ -290,7 +325,7 @@ The papers and projects in this list are categorized using the following tags:
 
     > **Source:** ACL 2025 Main [[Link]](https://aclanthology.org/2025.acl-long.55/)
 
-    Proposes a new framework named PsyDT aimed at using LLMs to construct a "digital twin" of psychological counselors with personalized counseling styles. The framework analyzes the counselor's language style, counseling techniques, and simulates the user's "Big Five" personality traits, combining a small number of real cases to generate multi-turn dialogue data, enabling large models to simulate specific counselors' therapies and language styles.
+    Proposes a new framework named PsyDT aimed at using LLMs to construct a "digital twin" of psychological counselors with personalized counseling styles. The framework analyzes the counselor's language style, counseling techniques, and simulates the user's "Big Five" personality traits, combining a small number of real cases to generate multi-turn dialogue data, enabling large models to simulate specific counselors' therapies and language styles. (Rational-emotive therapy，RET)
 
 - **IntentionESC: An Intention-Centered Framework for Enhancing Emotional Support in Dialogue Systems**
 
@@ -309,6 +344,15 @@ The papers and projects in this list are categorized using the following tags:
     > **Source:** ACL 2025 Main [[Link]](https://aclanthology.org/2025.acl-long.1021/)
 
     To address the shortcomings of existing client simulation methods in psychological counseling, such as difficulty maintaining behavioral consistency in complex dialogues and frequent neglect of the dynamic transition of psychological states, this paper proposes a client simulation framework for motivational interviewing. This framework comprises four core modules: state transition, action selection, information selection, and response generation. By leveraging domain knowledge extracted from the real-world counseling dataset (AnnoMI), it explicitly tracks and controls the simulated client's psychological state, receptivity, and action distribution based on the current state.
+
+- **Preference Learning Unlocks LLMs' Psycho-Counseling Skills**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-22C55E)
+
+    > **Source:** arXiv (2025.2.27) [[Link]](https://arxiv.org/abs/2502.19731)
+
+    This work proposes PsychoCounsel-Preference, a large-scale preference dataset containing 36k high-quality pairs for psycho-counseling, constructed with professional evaluation principles covering seven dimensions (empathy, relevance, clarity, safety, self-exploration, autonomy, and staging). The paper demonstrates that preference learning on this dataset significantly improves LLMs' counseling capabilities, with PsychoCounsel-Llama3-8B achieving an 87% win rate against GPT-4o. The dataset and models are open-sourced.
 
 </details>
 

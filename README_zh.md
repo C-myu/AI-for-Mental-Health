@@ -67,7 +67,6 @@
 - [ ] From Pattern Recognizers to Personalized  Companions: A Survey of Large Language  Models in Mental Health `Survey`
 - [x] Self-chats from Large Language Models Make Small Emotional Support Chatbot Better `ACL 2024 Main` `Dataset` `ExTES`
 - [ ] Beyond Empathy: Integrating Diagnostic and Therapeutic Reasoning with Large Language Models for Mental Health Counseling `Dataset` `Chain-of-Thought`
-- [ ] **TheraMind**: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling `Dialogue System` `Multi-Session` `Simulated Client`
 - [ ] Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations `Dataset` `Multi-Session`
 - [ ] **EmoBench-M**: Benchmarking Emotional Intelligence for Multimodal Large Language Models `Benchmark` `Multi-Modal`
 - [x] **$\Psi$-ARENA**: Interactive Assessment and Optimization of LLM-based Psychological Counselors with Tripartite Feedback `Benchmark` `Simulated Client`
@@ -81,6 +80,16 @@
 
 <details open>
 <summary><b>点击 折叠/展开</b></summary>
+
+- **TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling**
+
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
+
+    > **来源:** arXiv (2025.10.29) / WWW 2026 [[链接]](https://arxiv.org/abs/2510.25758)
+
+    提出了 TheraMind，一个用于纵向心理咨询的战略性和适应性智能体，采用新颖的双循环架构。该框架将咨询解耦为会内循环（用于战术对话管理，包括感知患者状态、检索跨会话记忆、生成临床导向的回复）和跨会话循环（用于战略治疗规划，包括评估治疗效能、在多种疗法如 CBT、MI、EFT 和叙事疗法之间自适应切换）。在 100 个真实临床案例的 6 轮会话评估中，TheraMind 在连贯性、灵活性和治疗调适性等多会话指标上相比基线提升 18.2%，人类评估者强烈偏好该系统。
 
 - **MentraSuite: Post-Training Large Language Models for Mental Health Reasoning and Assessment**
 

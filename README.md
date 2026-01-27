@@ -65,7 +65,6 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions `ACL 2025 Fingdings` `Survey`
 - [ ] From Pattern Recognizers to Personalized  Companions: A Survey of Large Language  Models in Mental Health `Survey`
 - [ ] Beyond Empathy: Integrating Diagnostic and Therapeutic Reasoning with Large Language Models for Mental Health Counseling `Dataset` `Chain-of-Thought`
-- [ ] **TheraMind**: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling `Dialogue System` `Multi-Session` `Simulated Client`
 - [ ] Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations `Dataset` `Multi-Session`
 - [ ] **EmoBench-M**: Benchmarking Emotional Intelligence for Multimodal Large Language Models `Benchmark` `Multi-Modal`
 - [ ] **Roleplaying with Structure**: Synthetic Therapist-Client Conversation Generation from Questionnaires `Dataset` `Interactive Generation`
@@ -78,7 +77,6 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] **Tell Me**: An LLM-powered Mental Well-being Assistant with RAG, Synthetic Dialogue Generation, and Agentic Planning `Dialogue System` `Data Synthesis` `Chain-of-thought` `arXiv 2511.14445` (Nov 2025)
 - [ ] **OnRL-RAG**: Real-Time Personalized Mental Health Dialogue System with Online Reinforcement Learning `Dialogue System` `Preference_Learning` `arXiv 2504.02894` (Apr 2025)
 - [ ] **Roleplaying with Structure**: Synthetic Therapist-Client Conversation Generation from Questionnaires `Data Synthesis` `Interactive Generation` `arXiv 2510.25384` (Oct 2025)
-- [ ] **TheraMind**: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling `Dialogue System` `Multi-Session` `Simulated Client` `arXiv 2510.25758` (Oct 2025)
 - [ ] **MoodAngels**: A Retrieval-augmented Multi-agent Framework for Mood Disorder Diagnosis `Multi-Agent` `Clinical Diagnostic` `NeurIPS 2025 Poster`
 - [ ] **AI-Facilitated Cognitive Reappraisal via Socrates 2.0**: LLM-based Socratic Dialogue Tool `Specific Therapy` `Chain-of-thought` `JMIR Mental Health` (Dec 2025)
 - [ ] **Aligning Large Language Models for CBT** (LLM4CBT): Therapist Persona with Professional Strategies `Specific Therapy` `Dialogue System` `Frontiers in Psychiatry` (Sep 2025)
@@ -141,6 +139,16 @@ The papers and projects in this list are categorized using the following tags:
     > **Source:** arXiv (2026.1.18) [[Link]](https://arxiv.org/abs/2601.12392)
 
     This paper proposes an interactive data synthesis framework called PsycheChat, based on Emotion-Focused Therapy (EFT), and constructs PsycheDialog, a multi-turn consultation dataset focusing on "emotion transformation tracking" and "safety risk analysis." Building upon this, the paper further designs a collaborative agent model and an efficient LLM inference model.
+
+- **TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling**
+
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
+
+    > **Source:** arXiv (2025.10.29) / WWW 2026 [[Link]](https://arxiv.org/abs/2510.25758)
+
+    Proposes TheraMind, a strategic and adaptive agent for longitudinal psychological counseling featuring a novel dual-loop architecture. The framework decouples counseling into an Intra-Session Loop for tactical dialogue management (perceiving patient state, retrieving cross-session memory, generating clinically-grounded responses) and a Cross-Session Loop for strategic therapeutic planning (evaluating therapy efficacy, adaptively switching between multiple therapy approaches like CBT, MI, EFT, and Narrative Therapy). Evaluated on 100 real clinical cases across 6 sessions, TheraMind achieves 18.2% improvement over baselines on multi-session metrics including Coherence, Flexibility, and Therapeutic Attunement, with human evaluators showing strong preference for the system.
 
 - **MentraSuite: Post-Training Large Language Models for Mental Health Reasoning and Assessment**
 

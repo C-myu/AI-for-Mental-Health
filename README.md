@@ -23,6 +23,7 @@
   - [🏷️ Taxonomy \& Legend](#️-taxonomy--legend)
   - [🚧 To Be Added](#-to-be-added)
     - [Newly Found (2025.08-2026.01)](#newly-found-202508-202601)
+  - [📅 2026](#-2026)
   - [📅 2025](#-2025)
   - [📅 2024](#-2024)
   - [📅 2023](#-2023)
@@ -125,7 +126,7 @@ The papers and projects in this list are categorized using the following tags:
 
 ---
 
-## 📅 2025
+## 📅 2026
 
 <details open>
 <summary><b>Click to collapse/expand</b></summary>
@@ -150,6 +151,15 @@ The papers and projects in this list are categorized using the following tags:
     > **Source:** arXiv (2026.1.18) [[Link]](https://arxiv.org/abs/2601.12392)
 
     This paper proposes an interactive data synthesis framework called PsycheChat, based on Emotion-Focused Therapy (EFT), and constructs PsycheDialog, a multi-turn consultation dataset focusing on "emotion transformation tracking" and "safety risk analysis." Building upon this, the paper further designs a collaborative agent model and an efficient LLM inference model.
+
+</details>
+
+---
+
+## 📅 2025
+
+<details open>
+<summary><b>Click to collapse/expand</b></summary>
 
 - **MentraSuite: Post-Training Large Language Models for Mental Health Reasoning and Assessment**
 

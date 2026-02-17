@@ -22,6 +22,7 @@
   - [📑 目录](#-目录)
   - [🏷️ 分类 \& 图例](#️-分类--图例)
   - [🚧 待添加](#-待添加)
+  - [📅 2026](#-2026)
   - [📅 2025](#-2025)
   - [📅 2024](#-2024)
   - [📅 2023](#-2023)
@@ -76,7 +77,7 @@
 
 ---
 
-## 📅 2025
+## 📅 2026
 
 <details open>
 <summary><b>点击 折叠/展开</b></summary>
@@ -91,6 +92,25 @@
     > **来源:** arXiv (2026.1.28) [[链接]](https://arxiv.org/abs/2601.20330)
 
     针对在非结构化、纵向心理咨询中评估 LLM 治疗能力的挑战，提出了 PsychePass，一个使用轨迹锚定锦标赛的校准框架。该方法基于单次治疗理论，通过脚本化多阶段模拟来锚定交互轨迹，并采用瑞士制锦标赛进行成对比较以获得稳健的 Elo 评分，同时证明锦标赛结果可以转化为强化学习的奖励信号用于优化。在评估 12 个 LLM 的广泛实验中，发现前沿通用模型的表现优于专业咨询模型，且该框架与人类专家评判具有高度一致性（Cohen's κ>0.7）。
+
+- **PsycheChat: An Empathic Framework Focused on Emotion Shift Tracking and Safety Risk Analysis in Psychological Counseling**
+
+    ![Special Therapy](https://img.shields.io/badge/Special_Therapy-purple)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
+
+    > **来源:** arXiv (2026.1.18) [[链接]](https://arxiv.org/abs/2601.12392)
+
+    提出了基于情绪焦点治疗（EFT）的交互式数据合成框架 PsycheChat，构建了专注于"情绪转化追踪"和"安全风险分析"的多轮咨询数据集 PsycheDialog。在此基础上，设计了协作智能体模型和高效的 LLM 推理模型。
+
+</details>
+
+---
+
+## 📅 2025
+
+<details open>
+<summary><b>点击 折叠/展开</b></summary>
 
 - **TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling**
 

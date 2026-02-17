@@ -81,6 +81,17 @@
 <details open>
 <summary><b>点击 折叠/展开</b></summary>
 
+- **PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments**
+
+    ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
+    ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-green)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > **来源:** arXiv (2026.1.28) [[链接]](https://arxiv.org/abs/2601.20330)
+
+    针对在非结构化、纵向心理咨询中评估 LLM 治疗能力的挑战，提出了 PsychePass，一个使用轨迹锚定锦标赛的校准框架。该方法基于单次治疗理论，通过脚本化多阶段模拟来锚定交互轨迹，并采用瑞士制锦标赛进行成对比较以获得稳健的 Elo 评分，同时证明锦标赛结果可以转化为强化学习的奖励信号用于优化。在评估 12 个 LLM 的广泛实验中，发现前沿通用模型的表现优于专业咨询模型，且该框架与人类专家评判具有高度一致性（Cohen's κ>0.7）。
+
 - **TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling**
 
     ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)

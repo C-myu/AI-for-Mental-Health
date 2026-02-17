@@ -130,6 +130,17 @@ The papers and projects in this list are categorized using the following tags:
 <details open>
 <summary><b>Click to collapse/expand</b></summary>
 
+- **PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments**
+
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-22C55E)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
+
+    > **Source:** arXiv (2026.1.28) [[Link]](https://arxiv.org/abs/2601.20330)
+
+    Addresses the challenge of evaluating LLMs' therapeutic competence in unstructured, longitudinal counseling by introducing PsychePass, a calibration framework using trajectory-anchored tournaments. The method anchors interaction trajectories through scripted multi-stage simulations based on Single-Session Therapy theory and employs pairwise comparisons via Swiss-system tournaments to obtain robust Elo ratings, while also demonstrating that tournament results can be transformed into reward signals for reinforcement learning optimization. Extensive experiments evaluating 12 LLMs reveal that frontier general models outperform specialized counseling models, and the framework achieves strong consistency (Cohen's κ>0.7) with human expert judgments.
+
 - **PsycheChat: An Empathic Framework Focused on Emotion Shift Tracking and Safety Risk Analysis in Psychological Counseling**
 
     ![Special Therapy](https://img.shields.io/badge/Special_Therapy-purple)
@@ -139,16 +150,6 @@ The papers and projects in this list are categorized using the following tags:
     > **Source:** arXiv (2026.1.18) [[Link]](https://arxiv.org/abs/2601.12392)
 
     This paper proposes an interactive data synthesis framework called PsycheChat, based on Emotion-Focused Therapy (EFT), and constructs PsycheDialog, a multi-turn consultation dataset focusing on "emotion transformation tracking" and "safety risk analysis." Building upon this, the paper further designs a collaborative agent model and an efficient LLM inference model.
-
-- **TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling**
-
-    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
-    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
-
-    > **Source:** arXiv (2025.10.29) / WWW 2026 [[Link]](https://arxiv.org/abs/2510.25758)
-
-    Proposes TheraMind, a strategic and adaptive agent for longitudinal psychological counseling featuring a novel dual-loop architecture. The framework decouples counseling into an Intra-Session Loop for tactical dialogue management (perceiving patient state, retrieving cross-session memory, generating clinically-grounded responses) and a Cross-Session Loop for strategic therapeutic planning (evaluating therapy efficacy, adaptively switching between multiple therapy approaches like CBT, MI, EFT, and Narrative Therapy). Evaluated on 100 real clinical cases across 6 sessions, TheraMind achieves 18.2% improvement over baselines on multi-session metrics including Coherence, Flexibility, and Therapeutic Attunement, with human evaluators showing strong preference for the system.
 
 - **MentraSuite: Post-Training Large Language Models for Mental Health Reasoning and Assessment**
 
@@ -178,6 +179,16 @@ The papers and projects in this list are categorized using the following tags:
     > **Source:** arXiv (2025.11.12) [[Link]](https://arxiv.org/abs/2511.09407)
 
     To address the issues of unrealistic client simulations, static and simplistic interaction formats, and a lack of professional depth in assessment indicators in existing large-scale psychological counseling evaluation models, this paper proposes CARE-Bench. This is a dynamic, multi-turn dialogue benchmark comprising 500 simulated client profiles derived from real counseling cases. The core of this method lies in employing an "Expert-Principle-Guided Simulation," where psychologists customize specific behavioral guidelines for each profile to constrain the LLM (Lesson-Led Model) posing as the client, thereby ensuring high fidelity and clinical authenticity in the interaction process. For assessment, the paper introduces multidimensional psychological scales including Working Alliance (WAI), Embrace Understanding (BLRI), and Counseling Skills-Responsiveness (CCS-R).
+
+- **TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling**
+
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
+
+    > **Source:** arXiv (2025.10.29) / WWW 2026 [[Link]](https://arxiv.org/abs/2510.25758)
+
+    Proposes TheraMind, a strategic and adaptive agent for longitudinal psychological counseling featuring a novel dual-loop architecture. The framework decouples counseling into an Intra-Session Loop for tactical dialogue management (perceiving patient state, retrieving cross-session memory, generating clinically-grounded responses) and a Cross-Session Loop for strategic therapeutic planning (evaluating therapy efficacy, adaptively switching between multiple therapy approaches like CBT, MI, EFT, and Narrative Therapy). Evaluated on 100 real clinical cases across 6 sessions, TheraMind achieves 18.2% improvement over baselines on multi-session metrics including Coherence, Flexibility, and Therapeutic Attunement, with human evaluators showing strong preference for the system.
 
 - **MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions**
 

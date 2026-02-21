@@ -82,6 +82,16 @@
 <details open>
 <summary><b>点击 折叠/展开</b></summary>
 
+- **PatientHub: A Unified Framework for Patient Simulation**
+
+    ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+
+    > **来源:** arXiv (2026.2.12) [[链接]](https://arxiv.org/pdf/2602.11684)
+
+    专注于用于训练和评估的患者模拟框架，而非生成咨询对话的对话系统。介绍了 PatientHub，这是一个统一且模块化的框架，标准化了 11 种现有模拟患者方法的定义、组合和部署，实现了使用一致评估协议的跨方法基准测试。通过全面的比较展示了框架的实用性，揭示了关键的设计权衡（例如，真实感 vs 教学效用），并提出了一种基于提取的评估范式以提供可操作的反馈。
+
 - **PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments**
 
     ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)

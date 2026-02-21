@@ -131,6 +131,16 @@ The papers and projects in this list are categorized using the following tags:
 <details open>
 <summary><b>Click to collapse/expand</b></summary>
 
+- **PatientHub: A Unified Framework for Patient Simulation**
+
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+
+    > **Source:** arXiv (2026.2.12) [[Link]](https://arxiv.org/pdf/2602.11684)
+
+    Focuses on patient simulation framework for training and evaluation, rather than dialogue generation for counseling. Introduces PatientHub, a unified and modular framework that standardizes the definition, composition, and deployment of 11 existing simulated patient methods, enabling cross-method benchmarking with consistent evaluation protocols. Demonstrates the framework's utility through comprehensive comparisons revealing key design trade-offs (e.g., realism vs. pedagogical utility), and proposes an extraction-based evaluation paradigm for providing actionable feedback.
+
 - **PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments**
 
     ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)

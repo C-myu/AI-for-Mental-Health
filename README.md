@@ -92,6 +92,19 @@ The papers and projects in this list are categorized using the following tags:
 - [ ] **AI-Augmented LLMs Achieve Therapist-Level Responses in MI** `Benchmark` `Specific Therapy` `arXiv 2505.17380` (May 2025)
 
 **📚 Priority 3: Foundational Capabilities & Data**
+
+**Simulated Client Papers (from PatientHub Framework)**
+- [ ] **Eeyore**: Realistic Depression Simulation via Expert-in-the-Loop Supervised and Preference Optimization `Simulated Client` `Preference_Learning` `ACL 2025 Findings` / `arXiv 2501.xxxxx` (Jan 2025)
+- [ ] **AnnaAgent**: Dynamic Evolution Agent System with Multi-Session Memory for Realistic Seeker Simulation `Simulated Client` `Multi-Agent` `ACL 2025 Findings` / `arXiv 250x.xxxxx` (2025)
+- [ ] **Roleplay-doh**: Enabling Domain-Experts to Create LLM-simulated Patients via Eliciting and Adhering to Principles `Simulated Client` `Chain-of-thought` `EMNLP 2024 Main` (2024)
+- [ ] **PSYCHE**: A Multi-faceted Patient Simulation Framework for Evaluation of Psychiatric Assessment Conversational Agents `Simulated Client` `Clinical Diagnostic` `arXiv 2501.01594` (Jan 2025)
+- [ ] **ClientCAST**: Towards a Client-Centered Assessment of LLM Therapists by Client Simulation `Simulated Client` `Benchmark` `arXiv 2406.12266` (Jun 2024)
+- [ ] **SAPS**: Automatic Interactive Evaluation for Large Language Models with State Aware Patient Simulator `Simulated Client` `Clinical Diagnostic` `arXiv 2403.08495` (Mar 2024)
+- [ ] **SimPatient**: Scaffolding Empathy - Training Counselors with Simulated Patients and Utterance-level Performance Visualizations `Simulated Client` `Specific Therapy` `CHI 2025` (2025)
+- [ ] **TalkDep**: Clinically Grounded LLM Personas for Conversation-Centric Depression Screening `Simulated Client` `Clinical Diagnostic` `CIKM 2025` (2025)
+- [ ] **Adaptive-VP**: A Framework for LLM-Based Virtual Patients that Adapts to Trainees' Dialogue to Facilitate Nurse Communication Training `Simulated Client` `ACL 2025 Findings` (2025)
+
+**Other Foundational Capabilities**
 - [ ] **Trustworthy AI Psychotherapy**: Multi-Agent LLM Workflow for Counseling and Explainable Mental Disorder Diagnosis `Multi-Agent` `Clinical Diagnostic` `Data Analysis` `arXiv 2508.11398` (Aug 2025)
 - [ ] **LENS**: LLM-Enabled Narrative Synthesis for Mental Health by Aligning Multimodal Sensing with Language Models `Multi-Modal` `Data Analysis` `arXiv 2512.23025` (Dec 2025)
 - [ ] **RealCBT**: A Dataset of Authentic CBT Dialogues - Comparative Analysis of Emotional Arcs `Data Collection` `Specific Therapy` `arXiv 2508.20764` / `EMNLP 2025 Findings` (Aug 2025)

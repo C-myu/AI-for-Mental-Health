@@ -75,6 +75,17 @@
 - [ ] **ESC-Eval**: Evaluating Emotion Support Conversations in Large Language Models `Benchmark` `ESC` `EMNLP 2024`
 - [ ] **Roleplaying with Structure**: Synthetic Therapist-Client Conversation Generation from Questionnaires `Dataset` `Interactive Generation`
 
+**模拟患者相关论文（来自 PatientHub 框架）**
+- [ ] **Eeyore**: Realistic Depression Simulation via Expert-in-the-Loop Supervised and Preference Optimization `Simulated Client` `Preference_Learning` `ACL 2025 Findings` (2025)
+- [ ] **AnnaAgent**: Dynamic Evolution Agent System with Multi-Session Memory for Realistic Seeker Simulation `Simulated Client` `Multi-Agent` `ACL 2025 Findings` (2025)
+- [ ] **Roleplay-doh**: Enabling Domain-Experts to Create LLM-simulated Patients via Eliciting and Adhering to Principles `Simulated Client` `Chain-of-thought` `EMNLP 2024 Main` (2024)
+- [ ] **PSYCHE**: A Multi-faceted Patient Simulation Framework for Evaluation of Psychiatric Assessment Conversational Agents `Simulated Client` `Clinical Diagnostic` `arXiv 2501.01594` (2025)
+- [ ] **ClientCAST**: Towards a Client-Centered Assessment of LLM Therapists by Client Simulation `Simulated Client` `Benchmark` `arXiv 2406.12266` (2024)
+- [ ] **SAPS**: Automatic Interactive Evaluation for Large Language Models with State Aware Patient Simulator `Simulated Client` `Clinical Diagnostic` `arXiv 2403.08495` (2024)
+- [ ] **SimPatient**: Scaffolding Empathy - Training Counselors with Simulated Patients and Utterance-level Performance Visualizations `Simulated Client` `Specific Therapy` `CHI 2025` (2025)
+- [ ] **TalkDep**: Clinically Grounded LLM Personas for Conversation-Centric Depression Screening `Simulated Client` `Clinical Diagnostic` `CIKM 2025` (2025)
+- [ ] **Adaptive-VP**: A Framework for LLM-Based Virtual Patients that Adapts to Trainees' Dialogue to Facilitate Nurse Communication Training `Simulated Client` `ACL 2025 Findings` (2025)
+
 ---
 
 ## 📅 2026

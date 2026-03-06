@@ -68,7 +68,28 @@ The papers and projects in this list are categorized using the following tags:
     > **Source:** arXiv (2026.2.24) [[Link]](https://arxiv.org/abs/2602.20648)
 
     Focuses on therapeutic alliance assessment rather than dialogue generation. Introduces CARE, an LLM-based framework that predicts client-perceived alliance scores across three dimensions (Goal, Task, Bond) while generating interpretable rationales. Enriched with 9,516 expert-annotated rationales and fine-tuned on LLaMA-3.1-8B, CARE achieves over 70% higher correlation with client ratings compared to human counselor evaluations, providing actionable insights for counseling practice.
-    
+
+- **PatientHub: A Unified Framework for Patient Simulation**
+
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+
+    > **Source:** arXiv (2026.2.12) [[Link]](https://arxiv.org/pdf/2602.11684)
+
+    Focuses on patient simulation framework for training and evaluation, rather than dialogue generation for counseling. Introduces PatientHub, a unified and modular framework that standardizes the definition, composition, and deployment of 11 existing simulated patient methods, enabling cross-method benchmarking with consistent evaluation protocols. Demonstrates the framework's utility through comprehensive comparisons revealing key design trade-offs (e.g., realism vs. pedagogical utility), and proposes an extraction-based evaluation paradigm for providing actionable feedback.
+
+- **PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments**
+
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-22C55E)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
+
+    > **Source:** arXiv (2026.1.28) [[Link]](https://arxiv.org/abs/2601.20330)
+
+    Addresses the challenge of evaluating LLMs' therapeutic competence in unstructured, longitudinal counseling by introducing PsychePass, a calibration framework using trajectory-anchored tournaments. The method anchors interaction trajectories through scripted multi-stage simulations based on Single-Session Therapy theory and employs pairwise comparisons via Swiss-system tournaments to obtain robust Elo ratings, while also demonstrating that tournament results can be transformed into reward signals for reinforcement learning optimization. Extensive experiments evaluating 12 LLMs reveal that frontier general models outperform specialized counseling models, and the framework achieves strong consistency (Cohen's κ>0.7) with human expert judgments.
+
 - **RECAP: Resistance Capture in Text-based Mental Health Counseling with Large Language Models**
 
     ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB)
@@ -88,27 +109,6 @@ The papers and projects in this list are categorized using the following tags:
     > **Source:** arXiv (2026.1.18) [[Link]](https://arxiv.org/abs/2601.12392)
 
     This paper proposes an interactive data synthesis framework called PsycheChat, based on Emotion-Focused Therapy (EFT), and constructs PsycheDialog, a multi-turn consultation dataset focusing on "emotion transformation tracking" and "safety risk analysis." Building upon this, the paper further designs a collaborative agent model and an efficient LLM inference model.
-
-- **PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments**
-
-    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
-    ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-22C55E)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
-
-    > **Source:** arXiv (2026.1.28) [[Link]](https://arxiv.org/abs/2601.20330)
-
-    Addresses the challenge of evaluating LLMs' therapeutic competence in unstructured, longitudinal counseling by introducing PsychePass, a calibration framework using trajectory-anchored tournaments. The method anchors interaction trajectories through scripted multi-stage simulations based on Single-Session Therapy theory and employs pairwise comparisons via Swiss-system tournaments to obtain robust Elo ratings, while also demonstrating that tournament results can be transformed into reward signals for reinforcement learning optimization. Extensive experiments evaluating 12 LLMs reveal that frontier general models outperform specialized counseling models, and the framework achieves strong consistency (Cohen's κ>0.7) with human expert judgments.
-
-- **PatientHub: A Unified Framework for Patient Simulation**
-
-    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
-
-    > **Source:** arXiv (2026.2.12) [[Link]](https://arxiv.org/pdf/2602.11684)
-
-    Focuses on patient simulation framework for training and evaluation, rather than dialogue generation for counseling. Introduces PatientHub, a unified and modular framework that standardizes the definition, composition, and deployment of 11 existing simulated patient methods, enabling cross-method benchmarking with consistent evaluation protocols. Demonstrates the framework's utility through comprehensive comparisons revealing key design trade-offs (e.g., realism vs. pedagogical utility), and proposes an extraction-based evaluation paradigm for providing actionable feedback.
 
 </details>
 

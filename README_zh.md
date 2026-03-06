@@ -68,6 +68,27 @@
 
     专注于治疗联盟评估而非对话生成。介绍了 CARE，一个基于 LLM 的框架，可预测三个维度（目标、任务、纽带）的来访者感知联盟评分，同时生成可解释的理由。通过 9,516 条专家标注的理由进行增强，并在 LLaMA-3.1-8B 上进行微调，CARE 与来访者评分的相关性比人类咨询师评估高出 70% 以上，为咨询实践提供了可操作的见解。
 
+- **PatientHub: A Unified Framework for Patient Simulation**
+
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+
+    > **来源:** arXiv (2026.2.12) [[链接]](https://arxiv.org/pdf/2602.11684)
+
+    专注于用于训练和评估的患者模拟框架，而非生成咨询对话的对话系统。介绍了 PatientHub，这是一个统一且模块化的框架，标准化了 11 种现有模拟患者方法的定义、组合和部署，实现了使用一致评估协议的跨方法基准测试。通过全面的比较展示了框架的实用性，揭示了关键的设计权衡（例如，真实感 vs 教学效用），并提出了一种基于提取的评估范式以提供可操作的反馈。
+
+- **PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments**
+
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-22C55E)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
+
+    > **来源:** arXiv (2026.1.28) [[链接]](https://arxiv.org/abs/2601.20330)
+
+    针对在非结构化、纵向心理咨询中评估 LLM 治疗能力的挑战，提出了 PsychePass，一个使用轨迹锚定锦标赛的校准框架。该方法基于单次治疗理论，通过脚本化多阶段模拟来锚定交互轨迹，并采用瑞士制锦标赛进行成对比较以获得稳健的 Elo 评分，同时证明锦标赛结果可以转化为强化学习的奖励信号用于优化。在评估 12 个 LLM 的广泛实验中，发现前沿通用模型的表现优于专业咨询模型，且该框架与人类专家评判具有高度一致性（Cohen's κ>0.7）。
+
 - **RECAP: Resistance Capture in Text-based Mental Health Counseling with Large Language Models**
 
     ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB)
@@ -87,27 +108,6 @@
     > **来源:** arXiv (2026.1.18) [[链接]](https://arxiv.org/abs/2601.12392)
 
     提出了基于情绪焦点治疗（EFT）的交互式数据合成框架 PsycheChat，构建了专注于"情绪转化追踪"和"安全风险分析"的多轮咨询数据集 PsycheDialog。在此基础上，设计了协作智能体模型和高效的 LLM 推理模型。
-
-- **PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments**
-
-    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
-    ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-22C55E)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
-
-    > **来源:** arXiv (2026.1.28) [[链接]](https://arxiv.org/abs/2601.20330)
-
-    针对在非结构化、纵向心理咨询中评估 LLM 治疗能力的挑战，提出了 PsychePass，一个使用轨迹锚定锦标赛的校准框架。该方法基于单次治疗理论，通过脚本化多阶段模拟来锚定交互轨迹，并采用瑞士制锦标赛进行成对比较以获得稳健的 Elo 评分，同时证明锦标赛结果可以转化为强化学习的奖励信号用于优化。在评估 12 个 LLM 的广泛实验中，发现前沿通用模型的表现优于专业咨询模型，且该框架与人类专家评判具有高度一致性（Cohen's κ>0.7）。
-
-- **PatientHub: A Unified Framework for Patient Simulation**
-
-    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
-
-    > **来源:** arXiv (2026.2.12) [[链接]](https://arxiv.org/pdf/2602.11684)
-
-    专注于用于训练和评估的患者模拟框架，而非生成咨询对话的对话系统。介绍了 PatientHub，这是一个统一且模块化的框架，标准化了 11 种现有模拟患者方法的定义、组合和部署，实现了使用一致评估协议的跨方法基准测试。通过全面的比较展示了框架的实用性，揭示了关键的设计权衡（例如，真实感 vs 教学效用），并提出了一种基于提取的评估范式以提供可操作的反馈。
 
 </details>
 

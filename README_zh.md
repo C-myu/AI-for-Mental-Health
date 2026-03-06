@@ -59,6 +59,16 @@
 <details open>
 <summary><b>点击 折叠/展开</b></summary>
 
+- **Multi-dimensional Assessment and Explainable Feedback for Counselor Responses to Client Resistance in Text-based Counseling with LLMs**
+
+    ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB)
+    ![Data Analysis](https://img.shields.io/badge/Data_Analysis-60A5FA)
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
+
+    > **来源:** arXiv (2026.2.25) [[链接]](https://arxiv.org/abs/2602.21638)
+
+    专注于评估咨询师对客户阻抗的应对质量，而非对话生成。介绍了将咨询师回应分解为四种沟通机制的理论驱动框架，以及包含真实咨询摘录的专家标注数据集。在质量评估上达到 77-81% F1，显著优于 GPT-4o 和 Claude-3.5-Sonnet（45-59%），通过 43 名咨询师的对照实验证实，AI 生成的反馈能显著提升咨询师应对阻抗的能力。
+
 - **CARE: An Explainable Computational Framework for Assessing Client-Perceived Therapeutic Alliance Using Large Language Models**
 
     ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)

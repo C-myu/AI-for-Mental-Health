@@ -60,6 +60,16 @@ The papers and projects in this list are categorized using the following tags:
 <details open>
 <summary><b>Click to collapse/expand</b></summary>
 
+- **Multi-dimensional Assessment and Explainable Feedback for Counselor Responses to Client Resistance in Text-based Counseling with LLMs**
+
+    ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB)
+    ![Data Analysis](https://img.shields.io/badge/Data_Analysis-60A5FA)
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
+
+    > **Source:** arXiv (2026.2.25) [[Link]](https://arxiv.org/abs/2602.21638)
+
+    Focuses on evaluating counselor response quality to client resistance rather than dialogue generation. Introduces a theory-driven framework decomposing counselor responses into four communication mechanisms and an expert-annotated dataset of real-world counseling excerpts. Achieves 77-81% F1 on quality assessment, substantially outperforming GPT-4o and Claude-3.5-Sonnet (45-59%), with a controlled experiment of 43 counselors confirming that AI-generated feedback significantly improves counselors' ability to respond to resistance.
+
 - **CARE: An Explainable Computational Framework for Assessing Client-Perceived Therapeutic Alliance Using Large Language Models**
 
     ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)

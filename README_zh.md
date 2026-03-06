@@ -21,12 +21,13 @@
 - [AI for Mental Health 💭](#ai-for-mental-health-)
   - [📑 目录](#-目录)
   - [🏷️ 分类 \& 图例](#️-分类--图例)
-  - [🚧 待添加](#-待添加)
   - [📅 2026](#-2026)
   - [📅 2025](#-2025)
   - [📅 2024](#-2024)
   - [📅 2023](#-2023)
   - [🤝 贡献](#-贡献)
+
+> **📋 TODO:** 查看 [TODO.md](TODO.md) 了解需要完整文档化的论文。
 
 ---
 
@@ -48,43 +49,6 @@
 | | ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey) | 用于评估 LLM 在心理健康任务中表现的基准或评估套件。 |
 | **其他** | ![Multi Modal](https://img.shields.io/badge/Multi_Modal-magenta) | 涉及文本之外的图像、音频或视频。 |
 | | ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red) | 模拟来访者/患者以进行训练或评估。 |
-
----
-
-## 🚧 待添加
-
-> *进行中。欢迎提交 PR 更新这些条目。*
-
-- [x] **CARE-Bench**: A Benchmark of Diverse Client Simulations Guided by Expert Principles for Evaluating LLMs in Psychological Counseling `Benchmark` `Simulated Client`
-- [x] **MindEval**: Benchmarking Language Models on Multi-turn Mental Health Support `Benchmark` `Simulated Client`
-- [x] **Consistent Client Simulation** for Motivational Interviewing-based Counseling `Simulated Client`
-- [ ] **Introducing CounselMe**: A Dataset of Simulated Mental Health Dialogues for Comparing LLMs like Haiku, LlamaNTino and ChatGPT Against Humans `Simulated Client` `Dataset`
-- [ ] **SocialSim**: Towards Socialized Simulation of Emotional Support Conversation `Dataset` `Scripts Generation` `ESC`
-- [x] **Unlocking LLMs**: Addressing Scarce Data and Bias Challenges in Mental Health `Dataset` `IC-Annomi`
-- [x] Analysis and Evaluation of AnnoMI, a Dataset of Expert-Annotated Counselling Dialogues `Dataset` `Annomi`
-- [ ] A Cognitive Stimulation Dialogue System with Multi-source Knowledge Fusion for Elders with Cognitive Impairment `Dataset`
-- [ ] **PsyGUARD**: An Automated System for Suicide Detection and Risk Assessment in Psychological Counseling `Dataset`
-- [ ] A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions `ACL 2025 Fingdings` `Survey`
-- [ ] From Pattern Recognizers to Personalized  Companions: A Survey of Large Language  Models in Mental Health `Survey`
-- [x] Self-chats from Large Language Models Make Small Emotional Support Chatbot Better `ACL 2024 Main` `Dataset` `ExTES`
-- [ ] Beyond Empathy: Integrating Diagnostic and Therapeutic Reasoning with Large Language Models for Mental Health Counseling `Dataset` `Chain-of-Thought`
-- [ ] Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations `Dataset` `Multi-Session`
-- [ ] **EmoBench-M**: Benchmarking Emotional Intelligence for Multimodal Large Language Models `Benchmark` `Multi-Modal`
-- [x] **$\Psi$-ARENA**: Interactive Assessment and Optimization of LLM-based Psychological Counselors with Tripartite Feedback `Benchmark` `Simulated Client`
-- [ ] **CBT-Bench**: Evaluating Large Language Models on Assisting Cognitive Behavior Therapy `Becnchmark` `Specific Therapy` `NAACL 2025`
-- [ ] **ESC-Eval**: Evaluating Emotion Support Conversations in Large Language Models `Benchmark` `ESC` `EMNLP 2024`
-- [ ] **Roleplaying with Structure**: Synthetic Therapist-Client Conversation Generation from Questionnaires `Dataset` `Interactive Generation`
-
-**模拟患者相关论文（来自 PatientHub 框架）**
-- [ ] **Eeyore**: Realistic Depression Simulation via Expert-in-the-Loop Supervised and Preference Optimization `Simulated Client` `Preference_Learning` `ACL 2025 Findings` (2025)
-- [ ] **AnnaAgent**: Dynamic Evolution Agent System with Multi-Session Memory for Realistic Seeker Simulation `Simulated Client` `Multi-Agent` `ACL 2025 Findings` (2025)
-- [ ] **Roleplay-doh**: Enabling Domain-Experts to Create LLM-simulated Patients via Eliciting and Adhering to Principles `Simulated Client` `Chain-of-thought` `EMNLP 2024 Main` (2024)
-- [ ] **PSYCHE**: A Multi-faceted Patient Simulation Framework for Evaluation of Psychiatric Assessment Conversational Agents `Simulated Client` `Clinical Diagnostic` `arXiv 2501.01594` (2025)
-- [ ] **ClientCAST**: Towards a Client-Centered Assessment of LLM Therapists by Client Simulation `Simulated Client` `Benchmark` `arXiv 2406.12266` (2024)
-- [ ] **SAPS**: Automatic Interactive Evaluation for Large Language Models with State Aware Patient Simulator `Simulated Client` `Clinical Diagnostic` `arXiv 2403.08495` (2024)
-- [ ] **SimPatient**: Scaffolding Empathy - Training Counselors with Simulated Patients and Utterance-level Performance Visualizations `Simulated Client` `Specific Therapy` `CHI 2025` (2025)
-- [ ] **TalkDep**: Clinically Grounded LLM Personas for Conversation-Centric Depression Screening `Simulated Client` `Clinical Diagnostic` `CIKM 2025` (2025)
-- [ ] **Adaptive-VP**: A Framework for LLM-Based Virtual Patients that Adapts to Trainees' Dialogue to Facilitate Nurse Communication Training `Simulated Client` `ACL 2025 Findings` (2025)
 
 ---
 

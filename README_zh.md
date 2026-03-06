@@ -37,18 +37,20 @@
 
 | 类别 | 徽章 | 描述 |
 | :--- | :--- | :--- |
-| **数据** | ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue) | LLMs 生成的或者是其他方法合成的数据集。 |
-| | ![Data Collection](https://img.shields.io/badge/Data_Collection-deepskyblue) | 从平台或实验中收集的真实世界数据。 |
-| **方法论** | ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green) | 侧重于通过单个 LLM 文本生成来生成咨询对话的方法。 |
-| | ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin) | 侧重于通过两个 LLM 交互来生成咨询对话的方法。 |
-| | ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange) | 通过思维链 (CoT) 推理以获得更好的咨询逻辑。 |
-| **应用** | ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple) | 专注于特定疗法（例如 CBT, SST, MI）。 |
-| | ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow) | 完整的聊天机器人或对话系统框架。 |
-| | ![Emotional Support](https://img.shields.io/badge/Emotional_Support-cornflowerblue) | 专注于同理心和情感支持能力。 |
-| | ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-yellowgreen) | 专注于诊断和临床评估。 |
-| | ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey) | 用于评估 LLM 在心理健康任务中表现的基准或评估套件。 |
-| **其他** | ![Multi Modal](https://img.shields.io/badge/Multi_Modal-magenta) | 涉及文本之外的图像、音频或视频。 |
-| | ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red) | 模拟来访者/患者以进行训练或评估。 |
+| **数据** | ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) | LLMs 生成的或者是其他方法合成的数据集。 |
+| | ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB) | 从平台或实验中收集的真实世界数据。 |
+| | ![Data Analysis](https://img.shields.io/badge/Data_Analysis-60A5FA) | 数据分析和预处理。 |
+| **方法论** | ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D) | 侧重于通过单个 LLM 文本生成来生成咨询对话的方法。 |
+| | ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A) | 侧重于通过两个 LLM 交互来生成咨询对话的方法。 |
+| | ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80) | 通过思维链 (CoT) 推理以获得更好的咨询逻辑。 |
+| | ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-22C55E) | 利用偏好学习（如 DPO）来训练模型。 |
+| **应用** | ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) | 专注于特定疗法（例如 CBT, SST, MI）。 |
+| | ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA) | 完整的聊天机器人或对话系统框架。 |
+| | ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC) | 专注于同理心和情感支持能力。 |
+| | ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-A855F7) | 专注于诊断和临床评估。 |
+| | ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE) | 用于评估 LLM 在心理健康任务中表现的基准或评估套件。 |
+| **其他** | ![Multi Modal](https://img.shields.io/badge/Multi_Modal-F97316) | 涉及文本之外的图像、音频或视频。 |
+| | ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B) | 模拟来访者/患者以进行训练或评估。 |
 
 ---
 
@@ -57,45 +59,55 @@
 <details open>
 <summary><b>点击 折叠/展开</b></summary>
 
-- **PatientHub: A Unified Framework for Patient Simulation**
+- **CARE: An Explainable Computational Framework for Assessing Client-Perceived Therapeutic Alliance Using Large Language Models**
 
-    ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
+    ![Data Analysis](https://img.shields.io/badge/Data_Analysis-60A5FA)
 
-    > **来源:** arXiv (2026.2.12) [[链接]](https://arxiv.org/pdf/2602.11684)
+    > **来源:** arXiv (2026.2.24) [[链接]](https://arxiv.org/abs/2602.20648)
 
-    专注于用于训练和评估的患者模拟框架，而非生成咨询对话的对话系统。介绍了 PatientHub，这是一个统一且模块化的框架，标准化了 11 种现有模拟患者方法的定义、组合和部署，实现了使用一致评估协议的跨方法基准测试。通过全面的比较展示了框架的实用性，揭示了关键的设计权衡（例如，真实感 vs 教学效用），并提出了一种基于提取的评估范式以提供可操作的反馈。
+    专注于治疗联盟评估而非对话生成。介绍了 CARE，一个基于 LLM 的框架，可预测三个维度（目标、任务、纽带）的来访者感知联盟评分，同时生成可解释的理由。通过 9,516 条专家标注的理由进行增强，并在 LLaMA-3.1-8B 上进行微调，CARE 与来访者评分的相关性比人类咨询师评估高出 70% 以上，为咨询实践提供了可操作的见解。
 
-- **PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments**
+- **RECAP: Resistance Capture in Text-based Mental Health Counseling with Large Language Models**
 
-    ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
-    ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-green)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB)
+    ![Data Analysis](https://img.shields.io/badge/Data_Analysis-60A5FA)
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
 
-    > **来源:** arXiv (2026.1.28) [[链接]](https://arxiv.org/abs/2601.20330)
+    > **来源:** arXiv (2026.1.21) [[链接]](https://arxiv.org/abs/2601.14780)
 
-    针对在非结构化、纵向心理咨询中评估 LLM 治疗能力的挑战，提出了 PsychePass，一个使用轨迹锚定锦标赛的校准框架。该方法基于单次治疗理论，通过脚本化多阶段模拟来锚定交互轨迹，并采用瑞士制锦标赛进行成对比较以获得稳健的 Elo 评分，同时证明锦标赛结果可以转化为强化学习的奖励信号用于优化。在评估 12 个 LLM 的广泛实验中，发现前沿通用模型的表现优于专业咨询模型，且该框架与人类专家评判具有高度一致性（Cohen's κ>0.7）。
+    专注于阻抗检测和分类，而非对话生成。介绍了 RECAP，一个用于检测文本咨询中客户阻抗和细粒度阻抗类型的两阶段框架。提出了包含 13 种细粒度阻抗行为的 PsyFIRE 框架，并构建了包含来自真实中文咨询的 23,930 个标注话语的 ClientResistance 语料库。在协作/阻抗区分上达到 91.25% F1，在细粒度分类上达到 66.58% macro-F1，比 LLM 基线高 20 多个百分点。
 
 - **PsycheChat: An Empathic Framework Focused on Emotion Shift Tracking and Safety Risk Analysis in Psychological Counseling**
 
-    ![Special Therapy](https://img.shields.io/badge/Special_Therapy-purple)
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A)
 
     > **来源:** arXiv (2026.1.18) [[链接]](https://arxiv.org/abs/2601.12392)
 
     提出了基于情绪焦点治疗（EFT）的交互式数据合成框架 PsycheChat，构建了专注于"情绪转化追踪"和"安全风险分析"的多轮咨询数据集 PsycheDialog。在此基础上，设计了协作智能体模型和高效的 LLM 推理模型。
 
-- **CARE: An Explainable Computational Framework for Assessing Client-Perceived Therapeutic Alliance Using Large Language Models**
+- **PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments**
 
-    ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)
-    ![Data Analysis](https://img.shields.io/badge/Data_Analysis-steelblue)
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-22C55E)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
-    > **来源:** arXiv (2026.2.24) [[链接]](https://arxiv.org/abs/2602.20648)
+    > **来源:** arXiv (2026.1.28) [[链接]](https://arxiv.org/abs/2601.20330)
 
-    专注于治疗联盟评估而非对话生成。介绍了 CARE，一个基于 LLM 的框架，可预测三个维度（目标、任务、纽带）的来访者感知联盟评分，同时生成可解释的理由。通过 9,516 条专家标注的理由进行增强，并在 LLaMA-3.1-8B 上进行微调，CARE 与来访者评分的相关性比人类咨询师评估高出 70% 以上，为咨询实践提供了可操作的见解。
+    针对在非结构化、纵向心理咨询中评估 LLM 治疗能力的挑战，提出了 PsychePass，一个使用轨迹锚定锦标赛的校准框架。该方法基于单次治疗理论，通过脚本化多阶段模拟来锚定交互轨迹，并采用瑞士制锦标赛进行成对比较以获得稳健的 Elo 评分，同时证明锦标赛结果可以转化为强化学习的奖励信号用于优化。在评估 12 个 LLM 的广泛实验中，发现前沿通用模型的表现优于专业咨询模型，且该框架与人类专家评判具有高度一致性（Cohen's κ>0.7）。
+
+- **PatientHub: A Unified Framework for Patient Simulation**
+
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+
+    > **来源:** arXiv (2026.2.12) [[链接]](https://arxiv.org/pdf/2602.11684)
+
+    专注于用于训练和评估的患者模拟框架，而非生成咨询对话的对话系统。介绍了 PatientHub，这是一个统一且模块化的框架，标准化了 11 种现有模拟患者方法的定义、组合和部署，实现了使用一致评估协议的跨方法基准测试。通过全面的比较展示了框架的实用性，揭示了关键的设计权衡（例如，真实感 vs 教学效用），并提出了一种基于提取的评估范式以提供可操作的反馈。
 
 </details>
 
@@ -108,9 +120,9 @@
 
 - **TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling**
 
-    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
-    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
 
     > **来源:** arXiv (2025.10.29) / WWW 2026 [[链接]](https://arxiv.org/abs/2510.25758)
 
@@ -118,10 +130,10 @@
 
 - **MentraSuite: Post-Training Large Language Models for Mental Health Reasoning and Assessment**
 
-    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
-    ![Data Analysis](https://img.shields.io/badge/Data_Analysis-steelblue)
-    ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-yellowgreen)
-    ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
+    ![Data Analysis](https://img.shields.io/badge/Data_Analysis-60A5FA)
+    ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-A855F7)
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
 
     > **来源:** arXiv (2025.12.10) [[链接]](https://arxiv.org/abs/2512.09636)
 
@@ -129,8 +141,8 @@
 
 - **MindEval: Benchmarking Language Models on Multi-turn Mental Health Support**
 
-    ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
 
     > **来源:** arXiv (2025.11.23) [[链接]](https://www.arxiv.org/abs/2511.18491)
 
@@ -138,8 +150,8 @@
 
 - **CARE-Bench: A Benchmark of Diverse Client Simulations Guided by Expert Principles for Evaluating LLMs in Psychological Counseling**
 
-    ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
 
     > **来源:** arXiv (2025.11.12) [[链接]](https://arxiv.org/abs/2511.09407)
 
@@ -147,9 +159,9 @@
 
 - **MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** arXiv (2025.09.04) [[链接]](https://arxiv.org/abs/2509.04183)
 
@@ -157,9 +169,9 @@
   
 - **DiaCBT: A Long-Periodic Dialogue Corpus Guided by Cognitive Conceptualization Diagram for CBT-based Psychological Counseling**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** arXiv (2025.09.03) [[链接]](http://arxiv.org/abs/2509.02999)
 
@@ -167,10 +179,10 @@
 
 - **CATCH: A Novel Data Synthesis Framework for High Therapy Fidelity and Memory-Driven Planning Chain of Thought in AI Counseling**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
-    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
 
     > **来源:** EMNLP 2025 Findings [[链接]](https://aclanthology.org/2025.findings-emnlp.543/)
 
@@ -178,9 +190,9 @@
 
 - **CRISP: Cognitive Restructuring of Negative Thoughts through Multi-turn Supportive Dialogues**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** EMNLP 2025 Main [[链接]](https://aclanthology.org/2025.emnlp-main.1652/)
 
@@ -188,8 +200,8 @@
 
 - **Reframe Your Life Story: Interactive Narrative Therapist and Innovative Moment Assessment with Large Language Models**
 
-    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** EMNLP 2025 Main [[链接]](http://aclanthology.org/2025.emnlp-main.1245/)
 
@@ -197,10 +209,10 @@
 
 - **PanicToCalm: A Proactive Counseling Agent for Panic Attacks**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
-    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
 
     > **来源:** EMNLP 2025 Main [[链接]](https://aclanthology.org/2025.emnlp-main.649/)
 
@@ -214,10 +226,10 @@
 
 - **Mirror: Multimodal Cognitive Reframing Therapy for Rolling with Resistance**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
-    ![Multi Modal](https://img.shields.io/badge/Multi_Modal-magenta)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
+    ![Multi Modal](https://img.shields.io/badge/Multi_Modal-F97316)
 
     > **来源:** EMNLP 2025 Main [[链接]](https://aclanthology.org/2025.emnlp-main.751/)
 
@@ -225,7 +237,7 @@
 
 - **Towards AI-Assisted Psychotherapy: Emotion-Guided Generative Interventions**
 
-    ![Multi Modal](https://img.shields.io/badge/Multi_Modal-magenta)
+    ![Multi Modal](https://img.shields.io/badge/Multi_Modal-F97316)
 
     > **来源:** EMNLP 2025 Main [[链接]](https://aclanthology.org/2025.emnlp-main.1664/)
 
@@ -233,9 +245,9 @@
 
 - **Toward Real-World Chinese Psychological Support Dialogues: CPsDD Dataset and a Co-Evolving Multi-Agent System**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
-    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
 
     > **来源:** arxiv  (2025.07.10) [[链接]](https://arxiv.org/abs/2507.07509)
 
@@ -243,10 +255,10 @@
 
 - **Multimodal Cognitive Reframing Therapy via Multi-hop Psychotherapeutic Reasoning**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
-    ![Multi Modal](https://img.shields.io/badge/Multi_Modal-magenta)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A)
+    ![Multi Modal](https://img.shields.io/badge/Multi_Modal-F97316)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** NAACL 2025 Main [[链接]](https://aclanthology.org/2025.naacl-long.250/)
 
@@ -255,7 +267,7 @@
 - **$\Psi$-ARENA**: Interactive Assessment and Optimization of LLM-based Psychological Counselors with Tripartite Feedback
   
     ![Benchmark](https://img.shields.io/badge/Benchmark-red)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
 
     > **来源:** arxiv  (2025.03.01) [[链接]](http://arxiv.org/abs/2505.03293)
 
@@ -263,9 +275,9 @@
 
 - **DeepPsy-Agent: A Stage-Aware and Deep-Thinking Emotional Support Agent System**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** arxiv  (2025.03.20) [[链接]](https://arxiv.org/abs/2503.15876) Work in Progress
 
@@ -273,8 +285,8 @@
 
 - **Psy-Insight: Explainable Multi-turn Bilingual Dataset for Mental Health Counseling**
 
-    ![Data collection](https://img.shields.io/badge/Data_Collection-deepskyblue)
-    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
+    ![Data collection](https://img.shields.io/badge/Data_Collection-2563EB)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
 
     > **来源:** arXiv (2025.03.05) [[链接]](https://arxiv.org/abs/2503.03607)
 
@@ -282,8 +294,8 @@
 
 - **AutoCBT: An Autonomous Multi-agent Framework for Cognitive Behavioral Therapy in Psychological Counseling**
 
-    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** arXiv (2025.01.16) [[链接]](https://arxiv.org/abs/2501.09426)
 
@@ -291,9 +303,9 @@
 
 - **PsyDial: A Large-scale Long-term Conversational Dataset for Mental Health Support**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** ACL 2025 Main [[链接]](https://aclanthology.org/2025.acl-long.1049/)
 
@@ -301,9 +313,9 @@
 
 - **PsyDT: Using LLMs to Construct the Digital Twin of Psychological Counselor with Personalized Counseling Style for Psychological Counseling**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** ACL 2025 Main [[链接]](https://aclanthology.org/2025.acl-long.55/)
 
@@ -311,8 +323,8 @@
 
 - **IntentionESC: An Intention-Centered Framework for Enhancing Emotional Support in Dialogue Systems**
 
-    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
-    ![Emotional Support](https://img.shields.io/badge/Emotional_Support-cornflowerblue)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
+    ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC)
 
     > **来源:** ACL 2025 Findings [[链接]](https://arxiv.org/abs/2506.05947)
 
@@ -320,8 +332,8 @@
 
 - **Consistent Client Simulation for Motivational Interviewing-based Counseling**
 
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** ACL 2025 Main [[链接]](https://aclanthology.org/2025.acl-long.1021/)
 
@@ -336,9 +348,9 @@
 
 - **MDD-5k: A New Diagnostic Conversation Dataset for Mental Disorders Synthesized via Neuro-Symbolic LLM Agents**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
-    ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-yellowgreen)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A)
+    ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-A855F7)
 
     > **来源:** AAAI2025 / arXiv (2024.11) [[链接]](https://arxiv.org/abs/2408.12142)
 
@@ -346,8 +358,8 @@
 
 - **Structured Dialogue System for Mental Health: An LLM Chatbot Leveraging the PM+ Guidelines**
 
-    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** ICSR 2024 / arXiv (2024.11) [[链接]](https://arxiv.org/abs/2411.10681)
 
@@ -355,8 +367,8 @@
 
 - **Interactive Agents: Simulating Counselor-Client Psychological Counseling via Role-Playing LLM-to-LLM Interactions**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A)
 
     > **来源:** arXiv (2024.08.24) [[链接]](https://arxiv.org/abs/2408.15787)
 
@@ -364,7 +376,7 @@
 
 - **PATIENT-$\Psi$: Using Large Language Models to Simulate Patients for Training Mental Health Professionals**
 
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-red)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
 
     > **来源:** EMNLP 2024 Main [[链接]](https://aclanthology.org/2024.emnlp-main.711/)
 
@@ -372,9 +384,9 @@
 
 - **CACTUS: Towards Psychological Counseling Conversations using Cognitive Behavioral Theory**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** EMNLP 2024 Findings [[链接]](https://aclanthology.org/2024.findings-emnlp.832/)
 
@@ -382,8 +394,8 @@
 
 - **SMILE: Single-turn to Multi-turn Inclusive Language Expansion via ChatGPT for Mental Health Support**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
 
     > **来源:** EMNLP 2024 Findings [[链接]](https://aclanthology.org/2024.findings-emnlp.34/)
 
@@ -391,8 +403,8 @@
 
 - **NoteChat: A Dataset of Synthetic Patient-Physician Conversations Conditioned on Clinical Notes**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A)
 
     > **来源:** ACL 2024 Findings [[链接]](https://aclanthology.org/2024.findings-acl.901/)
 
@@ -400,8 +412,8 @@
 
 - **CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
 
     > **来源:** ACL 2024 Findings [[链接]](https://aclanthology.org/2024.findings-acl.830/)
 
@@ -409,7 +421,7 @@
 
 - **PsyChat: A Client-Centric Dialogue System for Mental Health Support**
 
-    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
 
     > **来源:** CSCWD 2024 [[链接]](https://arxiv.org/abs/2312.04262)
 
@@ -417,8 +429,8 @@
 
 - **Enhancing Psychotherapy Counseling: A Data Augmentation Pipeline Leveraging Large Language Models for Counseling Conversations**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
 
     > **来源:** IJCAI 2024 / arXiv (2024.06) [[链接]](https://arxiv.org/abs/2406.08718)
 
@@ -426,8 +438,8 @@
 
 - **ESCoT: Towards Interpretable Emotional Support Dialogue Systems**
 
-    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
-    ![Emotional Support](https://img.shields.io/badge/Emotional_Support-cornflowerblue)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
+    ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC)
 
     > **来源:** ACL 2024 Main [[链接]](https://aclanthology.org/2024.acl-long.723/)
 
@@ -435,8 +447,8 @@
 
 - **HealMe: Harnessing Cognitive Reframing in Large Language Models for Psychotherapy**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** ACL 2024 Main [[链接]](https://aclanthology.org/2024.acl-long.93/)
 
@@ -444,8 +456,8 @@
 
 - **Self-chats from Large Language Models Make Small Emotional Support Chatbot Better**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** ACL 2024 Main [[链接]](https://aclanthology.org/2024.acl-long.611/)
 
@@ -453,9 +465,9 @@
 
 - **Towards Conversational Diagnostic AI**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
-    ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-yellowgreen)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A)
+    ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-A855F7)
 
     > **来源:** arxiv  (2024.01.11) [[链接]](https://arxiv.org/abs/2401.05654)
 
@@ -463,7 +475,7 @@
 
 - **EmoLLM**
 
-    ![Emotional Support](https://img.shields.io/badge/Emotional_Support-cornflowerblue)
+    ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC)
 
     > **来源:** (2024) [[链接]](https://github.com/SmartFlowAI/EmoLLM)
 
@@ -471,7 +483,7 @@
 
 - **Unlocking LLMs: Addressing Scarce Data and Bias Challenges in Mental Health**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
 
     > **来源:** NLPAICS 2024 [[链接]](https://aclanthology.org/2024.nlpaics-1.26/)
 
@@ -486,9 +498,9 @@
 
 - **SoulChat: Improving LLMs' Empathy, Listening, and Comfort Abilities through Fine-tuning with Multi-turn Empathy Conversations**
 
-    ![Data collection](https://img.shields.io/badge/Data_Collection-deepskyblue)
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Emotional Support](https://img.shields.io/badge/Emotional_Support-cornflowerblue)
+    ![Data collection](https://img.shields.io/badge/Data_Collection-2563EB)
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
+    ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC)
 
     > **来源:** EMNLP 2023 Findings [[链接]](https://aclanthology.org/anthology-files/pdf/findings/2023.findings-emnlp.83.pdf)
 
@@ -496,8 +508,8 @@
 
 - **Understanding Client Reactions in Online Mental Health Counseling**
 
-    ![Data collection](https://img.shields.io/badge/Data_Collection-deepskyblue)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Data collection](https://img.shields.io/badge/Data_Collection-2563EB)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** ACL 2023 Main [[链接]](https://aclanthology.org/2023.acl-long.577/)
 
@@ -505,8 +517,8 @@
 
 - **Training Models to Generate, Recognize, and Reframe Unhelpful Thoughts**
 
-    ![Data Collection](https://img.shields.io/badge/Data_Collection-deepskyblue)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** ACL 2023 Main [[链接]](https://aclanthology.org/2023.acl-long.763.pdf)
 
@@ -514,7 +526,7 @@
 
 - **MindChat**
 
-    ![Data collection](https://img.shields.io/badge/Data_Collection-deepskyblue)
+    ![Data collection](https://img.shields.io/badge/Data_Collection-2563EB)
 
     > **来源:** 华东理工大学 (2023) [[链接]](https://github.com/X-D-Lab/MindChat)
 
@@ -522,7 +534,7 @@
 
 - **Anno-MI: A Dataset of Expert-Annotated Counselling Dialogues**
 
-    ![Data Collection](https://img.shields.io/badge/Data_Collection-deepskyblue)
+    ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB)
 
     > **来源:** ICASSP 2022 [链接](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9746035)
 

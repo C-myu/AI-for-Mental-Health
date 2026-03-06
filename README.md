@@ -175,6 +175,15 @@ The papers and projects in this list are categorized using the following tags:
 
     This paper proposes an interactive data synthesis framework called PsycheChat, based on Emotion-Focused Therapy (EFT), and constructs PsycheDialog, a multi-turn consultation dataset focusing on "emotion transformation tracking" and "safety risk analysis." Building upon this, the paper further designs a collaborative agent model and an efficient LLM inference model.
 
+- **CARE: An Explainable Computational Framework for Assessing Client-Perceived Therapeutic Alliance Using Large Language Models**
+
+    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
+    ![Data Analysis](https://img.shields.io/badge/Data_Analysis-60A5FA)
+
+    > **Source:** arXiv (2026.2.24) [[Link]](https://arxiv.org/abs/2602.20648)
+
+    Focuses on therapeutic alliance assessment rather than dialogue generation. Introduces CARE, an LLM-based framework that predicts client-perceived alliance scores across three dimensions (Goal, Task, Bond) while generating interpretable rationales. Enriched with 9,516 expert-annotated rationales and fine-tuned on LLaMA-3.1-8B, CARE achieves over 70% higher correlation with client ratings compared to human counselor evaluations, providing actionable insights for counseling practice.
+
 </details>
 
 ---

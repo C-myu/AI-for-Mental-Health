@@ -124,6 +124,15 @@
 
     提出了基于情绪焦点治疗（EFT）的交互式数据合成框架 PsycheChat，构建了专注于"情绪转化追踪"和"安全风险分析"的多轮咨询数据集 PsycheDialog。在此基础上，设计了协作智能体模型和高效的 LLM 推理模型。
 
+- **CARE: An Explainable Computational Framework for Assessing Client-Perceived Therapeutic Alliance Using Large Language Models**
+
+    ![Benchmark](https://img.shields.io/badge/Benchmark-lightgrey)
+    ![Data Analysis](https://img.shields.io/badge/Data_Analysis-steelblue)
+
+    > **来源:** arXiv (2026.2.24) [[链接]](https://arxiv.org/abs/2602.20648)
+
+    专注于治疗联盟评估而非对话生成。介绍了 CARE，一个基于 LLM 的框架，可预测三个维度（目标、任务、纽带）的来访者感知联盟评分，同时生成可解释的理由。通过 9,516 条专家标注的理由进行增强，并在 LLaMA-3.1-8B 上进行微调，CARE 与来访者评分的相关性比人类咨询师评估高出 70% 以上，为咨询实践提供了可操作的见解。
+
 </details>
 
 ---

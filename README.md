@@ -120,6 +120,15 @@ The papers and projects in this list are categorized using the following tags:
 
     This paper proposes an interactive data synthesis framework called PsycheChat, based on Emotion-Focused Therapy (EFT), and constructs PsycheDialog, a multi-turn consultation dataset focusing on "emotion transformation tracking" and "safety risk analysis." Building upon this, the paper further designs a collaborative agent model and an efficient LLM inference model.
 
+- **PsyCLIENT: Client Simulation via Conversational Trajectory Modeling for Trainee Practice and Model Evaluation in Mental Health Counseling**
+
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB)
+
+    > **Source:** arXiv (2026.1.12) [[Link]](https://arxiv.org/abs/2601.07312)
+
+    Proposes PsyCLIENT, a client simulation framework grounded in conversational trajectory modeling. By conditioning LLM generation on predefined real-world trajectories with explicit behavior labels and content constraints, ensures diverse and realistic client interactions. Introduces PsyCLIENT-CP, the first open-source Chinese client profile dataset covering 60 counseling topics and constructed by professional counselors. Achieves approximately 95% expert confusion rate in discrimination tasks, demonstrating simulated clients are nearly indistinguishable from human clients.
+
 </details>
 
 ---

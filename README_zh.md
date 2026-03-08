@@ -119,6 +119,15 @@
 
     提出了基于情绪焦点治疗（EFT）的交互式数据合成框架 PsycheChat，构建了专注于"情绪转化追踪"和"安全风险分析"的多轮咨询数据集 PsycheDialog。在此基础上，设计了协作智能体模型和高效的 LLM 推理模型。
 
+- **PsyCLIENT: Client Simulation via Conversational Trajectory Modeling for Trainee Practice and Model Evaluation in Mental Health Counseling**
+
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB)
+
+    > **来源:** arXiv (2026.1.12) [[链接]](https://arxiv.org/abs/2601.07312)
+
+    提出了基于对话轨迹建模的客户端模拟框架 PsyCLIENT。通过在包含明确行为标签和内容约束的预定义现实轨迹上条件化 LLM 生成，确保了多样化和逼真的客户交互。引入了 PsyCLIENT-CP，首个由专业咨询师构建的开源中文客户画像数据集，涵盖60个咨询话题。在鉴别任务中达到约95%的专家混淆率，证明模拟客户几乎无法与真实客户区分。
+
 </details>
 
 ---

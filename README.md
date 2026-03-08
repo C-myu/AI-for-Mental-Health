@@ -47,11 +47,11 @@ The papers and projects in this list are categorized using the following tags:
 | | ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-22C55E) | Utilizing preference learning likes DPO to train models. |
 | **Application** | ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) | Focused on specific therapies (e.g., CBT, SST, MI). |
 | | ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA) | Complete chatbot or dialogue system frameworks. |
-| | ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC) | Focused on empathy and emotional support capabilities. |
 | | ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-A855F7) | Focused on diagnosis and clinical assessment. |
+| | ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC) | Focused on empathy and emotional support capabilities. |
 | | ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE) | Benchmarks or evaluation suites for assessing LLMs in mental health tasks. |
-| **Other** | ![Multi Modal](https://img.shields.io/badge/Multi_Modal-F97316) | Involving images, audio, or video alongside text. |
-| | ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B) | Simulating clients/patients for training or evaluation. |
+| | ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7) | Simulating clients/patients for training or evaluation. |
+| **Modality** | ![Multi Modal](https://img.shields.io/badge/Multi_Modal-F97316) | Involving images, audio, or video alongside text. |
 
 ---
 
@@ -82,7 +82,7 @@ The papers and projects in this list are categorized using the following tags:
 - **PatientHub: A Unified Framework for Patient Simulation**
 
     ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
 
     > **Source:** arXiv (2026.2.12) [[Link]](https://arxiv.org/pdf/2602.11684)
@@ -92,7 +92,7 @@ The papers and projects in this list are categorized using the following tags:
 - **PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments**
 
     ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
     ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-22C55E)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
@@ -122,7 +122,7 @@ The papers and projects in this list are categorized using the following tags:
 
 - **PsyCLIENT: Client Simulation via Conversational Trajectory Modeling for Trainee Practice and Model Evaluation in Mental Health Counseling**
 
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
     ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB)
 
     > **Source:** arXiv (2026.1.12) [[Link]](https://arxiv.org/abs/2601.07312)
@@ -152,7 +152,7 @@ The papers and projects in this list are categorized using the following tags:
 - **MindEval: Benchmarking Language Models on Multi-turn Mental Health Support**
 
     ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **Source:** arXiv (2025.11.23) [[Link]](https://www.arxiv.org/abs/2511.18491)
 
@@ -161,7 +161,7 @@ The papers and projects in this list are categorized using the following tags:
 - **CARE-Bench: A Benchmark of Diverse Client Simulations Guided by Expert Principles for Evaluating LLMs in Psychological Counseling**
 
     ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **Source:** arXiv (2025.11.12) [[Link]](https://arxiv.org/abs/2511.09407)
 
@@ -170,7 +170,7 @@ The papers and projects in this list are categorized using the following tags:
 - **TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling**
 
     ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
     ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
 
     > **Source:** arXiv (2025.10.29) / WWW 2026 [[Link]](https://arxiv.org/abs/2510.25758)
@@ -192,7 +192,7 @@ The papers and projects in this list are categorized using the following tags:
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
     ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **Source:** arXiv (2025.09.03) [[Link]](http://arxiv.org/abs/2509.02999)
 
@@ -204,7 +204,7 @@ The papers and projects in this list are categorized using the following tags:
     ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
     ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **Source:** EMNLP 2025 Findings [[Link]](https://aclanthology.org/2025.findings-emnlp.543/)
 
@@ -224,7 +224,7 @@ The papers and projects in this list are categorized using the following tags:
 
     ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **Source:** EMNLP 2025 Main [[Link]](http://aclanthology.org/2025.emnlp-main.1245/)
 
@@ -236,7 +236,7 @@ The papers and projects in this list are categorized using the following tags:
     ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
     ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **Source:** EMNLP 2025 Main [[Link]](https://aclanthology.org/2025.emnlp-main.649/)
 
@@ -302,7 +302,7 @@ The papers and projects in this list are categorized using the following tags:
 - **$\Psi$-ARENA**: Interactive Assessment and Optimization of LLM-based Psychological Counselors with Tripartite Feedback
   
     ![Benchmark](https://img.shields.io/badge/Benchmark-red)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **Source:** arxiv (2025.05.06) [[Link]](https://arxiv.org/abs/2505.03293)
 
@@ -376,7 +376,7 @@ The papers and projects in this list are categorized using the following tags:
 
 - **Consistent Client Simulation for Motivational Interviewing-based Counseling**
 
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **Source:** ACL 2025 Main [[Link]](https://aclanthology.org/2025.acl-long.1021/)
@@ -429,7 +429,7 @@ The papers and projects in this list are categorized using the following tags:
 
 - **PATIENT-$\Psi$: Using Large Language Models to Simulate Patients for Training Mental Health Professionals**
 
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **Source:** EMNLP 2024 Main [[Link]](https://aclanthology.org/2024.emnlp-main.711/)
 
@@ -439,7 +439,7 @@ The papers and projects in this list are categorized using the following tags:
 
     ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC)
     ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE) 
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **Source:** EMNLP 2024 Main [[Link]](https://aclanthology.org/2024.emnlp-main.883/)
 
@@ -450,7 +450,7 @@ The papers and projects in this list are categorized using the following tags:
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
     ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **Source:** EMNLP 2024 Findings [[Link]](https://aclanthology.org/2024.findings-emnlp.832/)
 

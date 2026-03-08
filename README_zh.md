@@ -46,11 +46,11 @@
 | | ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-22C55E) | 利用偏好学习（如 DPO）来训练模型。 |
 | **应用** | ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) | 专注于特定疗法（例如 CBT, SST, MI）。 |
 | | ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA) | 完整的聊天机器人或对话系统框架。 |
-| | ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC) | 专注于同理心和情感支持能力。 |
 | | ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-A855F7) | 专注于诊断和临床评估。 |
+| | ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC) | 专注于同理心和情感支持能力。 |
 | | ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE) | 用于评估 LLM 在心理健康任务中表现的基准或评估套件。 |
-| **其他** | ![Multi Modal](https://img.shields.io/badge/Multi_Modal-F97316) | 涉及文本之外的图像、音频或视频。 |
-| | ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B) | 模拟来访者/患者以进行训练或评估。 |
+| | ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7) | 模拟来访者/患者以进行训练或评估。 |
+| **模态** | ![Multi Modal](https://img.shields.io/badge/Multi_Modal-F97316) | 涉及文本之外的图像、音频或视频。 |
 
 ---
 
@@ -81,7 +81,7 @@
 - **PatientHub: A Unified Framework for Patient Simulation**
 
     ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8)
 
     > **来源:** arXiv (2026.2.12) [[链接]](https://arxiv.org/pdf/2602.11684)
@@ -91,7 +91,7 @@
 - **PsychePass: Calibrating LLM Therapeutic Competence via Trajectory-Anchored Tournaments**
 
     ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
     ![Preference-Learning](https://img.shields.io/badge/Preference_Learning-22C55E)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
@@ -121,7 +121,7 @@
 
 - **PsyCLIENT: Client Simulation via Conversational Trajectory Modeling for Trainee Practice and Model Evaluation in Mental Health Counseling**
 
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
     ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB)
 
     > **来源:** arXiv (2026.1.12) [[链接]](https://arxiv.org/abs/2601.07312)
@@ -140,7 +140,7 @@
 - **TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling**
 
     ![Dialogue System](https://img.shields.io/badge/Dialogue_system-9333EA)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
     ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-4ADE80)
 
     > **来源:** arXiv (2025.10.29) / WWW 2026 [[链接]](https://arxiv.org/abs/2510.25758)
@@ -161,7 +161,7 @@
 - **MindEval: Benchmarking Language Models on Multi-turn Mental Health Support**
 
     ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **来源:** arXiv (2025.11.23) [[链接]](https://www.arxiv.org/abs/2511.18491)
 
@@ -170,7 +170,7 @@
 - **CARE-Bench: A Benchmark of Diverse Client Simulations Guided by Expert Principles for Evaluating LLMs in Psychological Counseling**
 
     ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **来源:** arXiv (2025.11.12) [[链接]](https://arxiv.org/abs/2511.09407)
 
@@ -286,7 +286,7 @@
 - **$\Psi$-ARENA**: Interactive Assessment and Optimization of LLM-based Psychological Counselors with Tripartite Feedback
   
     ![Benchmark](https://img.shields.io/badge/Benchmark-red)
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **来源:** arxiv  (2025.03.01) [[链接]](http://arxiv.org/abs/2505.03293)
 
@@ -351,7 +351,7 @@
 
 - **Consistent Client Simulation for Motivational Interviewing-based Counseling**
 
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
 
     > **来源:** ACL 2025 Main [[链接]](https://aclanthology.org/2025.acl-long.1021/)
@@ -395,7 +395,7 @@
 
 - **PATIENT-$\Psi$: Using Large Language Models to Simulate Patients for Training Mental Health Professionals**
 
-    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-F59E0B)
+    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
 
     > **来源:** EMNLP 2024 Main [[链接]](https://aclanthology.org/2024.emnlp-main.711/)
 

@@ -1,0 +1,329 @@
+{
+  "schema_version": 2,
+  "repository": {
+    "name": "AI for Mental Health",
+    "descriptions": {
+      "en": "A curated collection of research on large language models and AI systems for mental health support.",
+      "zh": "精选的大型语言模型与人工智能心理健康支持研究目录。"
+    },
+    "default_language": "en",
+    "languages": [
+      "en",
+      "zh"
+    ]
+  },
+  "taxonomy": {
+    "priorities": [
+      {
+        "id": "P1",
+        "label": {
+          "en": "Multi-turn systems",
+          "zh": "多轮对话系统"
+        },
+        "description": {
+          "en": "Interactive counseling and longitudinal dialogue systems.",
+          "zh": "交互式咨询与纵向多轮对话系统。"
+        }
+      },
+      {
+        "id": "P2",
+        "label": {
+          "en": "Training and evaluation",
+          "zh": "训练与评测"
+        },
+        "description": {
+          "en": "Alignment, clinical fidelity, safety, and evaluation.",
+          "zh": "对齐、临床忠实度、安全与评估。"
+        }
+      },
+      {
+        "id": "P3",
+        "label": {
+          "en": "Foundations",
+          "zh": "基础研究"
+        },
+        "description": {
+          "en": "Datasets, simulation, analysis, and surveys.",
+          "zh": "数据集、模拟、分析与综述。"
+        }
+      }
+    ],
+    "tags": [
+      {
+        "id": "data-synthesis",
+        "label": "Data Synthesis",
+        "category": {
+          "en": "Data",
+          "zh": "数据"
+        },
+        "description": {
+          "en": "LLM-generated synthetic data, including dialogues, profiles, and annotations.",
+          "zh": "由 LLM 生成的合成数据，包括对话、画像和标注。"
+        },
+        "color": "#1D4ED8"
+      },
+      {
+        "id": "data-collection",
+        "label": "Data Collection",
+        "category": {
+          "en": "Data",
+          "zh": "数据"
+        },
+        "description": {
+          "en": "Expert-written or collected real-world data.",
+          "zh": "专家编写或真实收集的数据。"
+        },
+        "color": "#2563EB"
+      },
+      {
+        "id": "data-analysis",
+        "label": "Data Analysis",
+        "category": {
+          "en": "Data",
+          "zh": "数据"
+        },
+        "description": {
+          "en": "Data analysis and preprocessing.",
+          "zh": "数据分析和预处理。"
+        },
+        "color": "#60A5FA"
+      },
+      {
+        "id": "dataset",
+        "label": {
+          "en": "Dataset",
+          "zh": "数据集"
+        },
+        "category": {
+          "en": "Data",
+          "zh": "数据"
+        },
+        "description": {
+          "en": "Introduces or substantially extends a dataset.",
+          "zh": "提出或实质扩展数据集。"
+        },
+        "color": "#0F766E"
+      },
+      {
+        "id": "scripts-generation",
+        "label": "Scripts Generation",
+        "category": {
+          "en": "Methodology",
+          "zh": "方法"
+        },
+        "description": {
+          "en": "A single LLM generates dialogue through designed prompts.",
+          "zh": "单个 LLM 通过设计的提示生成对话。"
+        },
+        "color": "#15803D"
+      },
+      {
+        "id": "interactive-generation",
+        "label": "Interactive Generation",
+        "category": {
+          "en": "Methodology",
+          "zh": "方法"
+        },
+        "description": {
+          "en": "Multiple roles generate dialogue through interaction.",
+          "zh": "多个角色通过交互生成对话。"
+        },
+        "color": "#16A34A"
+      },
+      {
+        "id": "chain-of-thought",
+        "label": "Chain-of-Thought",
+        "category": {
+          "en": "Methodology",
+          "zh": "方法"
+        },
+        "description": {
+          "en": "Uses explicit planning, analysis, or reflection steps.",
+          "zh": "使用显式规划、分析或反思步骤。"
+        },
+        "color": "#4ADE80"
+      },
+      {
+        "id": "preference-learning",
+        "label": "Preference-Learning",
+        "category": {
+          "en": "Methodology",
+          "zh": "方法"
+        },
+        "description": {
+          "en": "Uses preference optimization such as DPO or RLHF.",
+          "zh": "使用 DPO、RLHF 等偏好优化方法。"
+        },
+        "color": "#22C55E"
+      },
+      {
+        "id": "multi-agent",
+        "label": {
+          "en": "Multi-Agent",
+          "zh": "多智能体"
+        },
+        "category": {
+          "en": "Methodology",
+          "zh": "方法"
+        },
+        "description": {
+          "en": "Coordinates multiple model agents or roles.",
+          "zh": "协调多个模型智能体或角色。"
+        },
+        "color": "#475569"
+      },
+      {
+        "id": "specific-therapy",
+        "label": "Specific Therapy",
+        "category": {
+          "en": "Application",
+          "zh": "应用"
+        },
+        "description": {
+          "en": "Focuses on a named therapy such as CBT or MI.",
+          "zh": "聚焦 CBT、MI 等特定疗法。"
+        },
+        "color": "#7E22CE"
+      },
+      {
+        "id": "dialogue-system",
+        "label": "Dialogue System",
+        "category": {
+          "en": "Application",
+          "zh": "应用"
+        },
+        "description": {
+          "en": "Generates counselor responses through a system or pipeline.",
+          "zh": "通过系统或流程生成咨询师回复。"
+        },
+        "color": "#9333EA"
+      },
+      {
+        "id": "clinical-diagnostic",
+        "label": "Clinical Diagnostic",
+        "category": {
+          "en": "Application",
+          "zh": "应用"
+        },
+        "description": {
+          "en": "Focuses on diagnosis or clinical assessment.",
+          "zh": "聚焦诊断或临床评估。"
+        },
+        "color": "#A855F7"
+      },
+      {
+        "id": "emotional-support",
+        "label": "Emotional Support",
+        "category": {
+          "en": "Application",
+          "zh": "应用"
+        },
+        "description": {
+          "en": "Focuses on empathy and emotional support.",
+          "zh": "聚焦同理心和情感支持。"
+        },
+        "color": "#C084FC"
+      },
+      {
+        "id": "benchmark",
+        "label": "Benchmark",
+        "category": {
+          "en": "Application",
+          "zh": "应用"
+        },
+        "description": {
+          "en": "Evaluates models or systems on mental-health tasks.",
+          "zh": "评估模型或系统在心理健康任务上的表现。"
+        },
+        "color": "#D8B4FE"
+      },
+      {
+        "id": "simulated-client",
+        "label": "Simulated Client",
+        "category": {
+          "en": "Application",
+          "zh": "应用"
+        },
+        "description": {
+          "en": "Builds or evaluates with simulated clients or patients.",
+          "zh": "构建模拟来访者或患者，或使用其进行评估。"
+        },
+        "color": "#B489C7"
+      },
+      {
+        "id": "survey",
+        "label": {
+          "en": "Survey",
+          "zh": "综述"
+        },
+        "category": {
+          "en": "Contribution",
+          "zh": "贡献类型"
+        },
+        "description": {
+          "en": "Synthesizes prior literature.",
+          "zh": "综合分析已有研究。"
+        },
+        "color": "#0891B2"
+      },
+      {
+        "id": "multi-session",
+        "label": {
+          "en": "Multi-Session",
+          "zh": "多会话"
+        },
+        "category": {
+          "en": "Study Design",
+          "zh": "研究设计"
+        },
+        "description": {
+          "en": "Studies interaction across multiple sessions.",
+          "zh": "研究跨多个会话的交互。"
+        },
+        "color": "#B45309"
+      },
+      {
+        "id": "multi-therapy",
+        "label": {
+          "en": "Multi-Therapy",
+          "zh": "多疗法"
+        },
+        "category": {
+          "en": "Study Design",
+          "zh": "研究设计"
+        },
+        "description": {
+          "en": "Covers multiple therapy frameworks.",
+          "zh": "涵盖多种治疗框架。"
+        },
+        "color": "#C2410C"
+      },
+      {
+        "id": "multi-modal",
+        "label": "Multi Modal",
+        "category": {
+          "en": "Modality",
+          "zh": "模态"
+        },
+        "description": {
+          "en": "Uses images, audio, or video alongside text.",
+          "zh": "结合文本与图像、音频或视频。"
+        },
+        "color": "#F97316"
+      }
+    ]
+  },
+  "render": {
+    "readmes": {
+      "en": "README.md",
+      "zh": "README_zh.md"
+    },
+    "todo": "TODO.md"
+  },
+  "workflow": {
+    "notes_dir": "paper_notes",
+    "notes_tracked": false,
+    "review_state_tracked": false,
+    "auto_commit": false
+  }
+}

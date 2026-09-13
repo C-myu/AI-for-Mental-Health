@@ -55,8 +55,6 @@
   - ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC): 聚焦同理心和情感支持。
   - ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE): 评估模型或系统在心理健康任务上的表现。
   - ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7): 构建模拟来访者或患者，或使用其进行评估。
-- **贡献类型**
-  - ![综述](https://img.shields.io/badge/%E7%BB%BC%E8%BF%B0-0891B2): 综合分析已有研究。
 - **研究设计**
   - ![多会话](https://img.shields.io/badge/%E5%A4%9A%E4%BC%9A%E8%AF%9D-B45309): 研究跨多个会话的交互。
   - ![多疗法](https://img.shields.io/badge/%E5%A4%9A%E7%96%97%E6%B3%95-C2410C): 涵盖多种治疗框架。
@@ -66,6 +64,18 @@
 ## 论文目录
 
 ### 2026
+
+#### 7月
+
+- **[Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations](https://aclanthology.org/2026.findings-acl.818/)**
+
+  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![数据集](https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E9%9B%86-0F766E) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![多会话](https://img.shields.io/badge/%E5%A4%9A%E4%BC%9A%E8%AF%9D-B45309)
+
+  > **来源:** Findings of ACL 2026 · 2026-07 · `doi:10.18653/v1/2026.findings-acl.818`
+
+  **作者:** Bichen Wang, Junzhe Wang, Yixin Sun, Xing Fu, Yanyan Zhao, Bing Qin
+
+  提出了 Muspsy，一个基于公开心理案例报告构建的合成多会话心理咨询数据集。其对话围绕同一来访者展开连续多次咨询，以呈现时间连续性和心理状态变化。配套的 Muspsy 模型会跟踪来访者进展并动态调整咨询目标，论文报告其在多会话评测中优于基线。
 
 #### 2月
 
@@ -134,6 +144,16 @@
   提出了基于对话轨迹建模的客户端模拟框架 PsyCLIENT。通过在包含明确行为标签和内容约束的预定义现实轨迹上条件化 LLM 生成，确保了多样化和逼真的客户交互。引入了 PsyCLIENT-CP，首个由专业咨询师构建的开源中文客户画像数据集，涵盖60个咨询话题。在鉴别任务中达到约95%的专家混淆率，证明模拟客户几乎无法与真实客户区分。
   _待核验._
 
+- **[PsychEval: A Multi-Session and Multi-Therapy Benchmark for High-Realism AI Psychological Counselor](https://arxiv.org/abs/2601.01802)**
+
+  ![数据集](https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E9%9B%86-0F766E) ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE) ![多会话](https://img.shields.io/badge/%E5%A4%9A%E4%BC%9A%E8%AF%9D-B45309) ![多疗法](https://img.shields.io/badge/%E5%A4%9A%E7%96%97%E6%B3%95-C2410C)
+
+  > **来源:** arXiv · 2026-01-05 · `arxiv:2601.01802`
+
+  **作者:** Qianjun Pan, Junyi Wang, Jie Zhou, Yutao Yang, Junsong Li, Kaiyin Xu, et al.
+
+  提出了 PsychEval，一个面向纵向 AI 心理咨询的基准，覆盖 6 至 10 次连续会话并评估多种治疗框架。其数据集涵盖五种治疗流派及整合疗法，包含 2,000 多个来访者画像和大量专业技能标注。评估框架设置了 18 项来访者级与咨询师级指标，也可作为咨询模型的强化学习环境。
+
 ### 2025
 
 #### 12月
@@ -171,7 +191,7 @@
 
 - **[TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling](https://arxiv.org/abs/2510.25758)**
 
-  ![Chain-of-Thought](https://img.shields.io/badge/Chain--of--Thought-4ADE80) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
+  ![Chain-of-Thought](https://img.shields.io/badge/Chain--of--Thought-4ADE80) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7) ![多会话](https://img.shields.io/badge/%E5%A4%9A%E4%BC%9A%E8%AF%9D-B45309) ![多疗法](https://img.shields.io/badge/%E5%A4%9A%E7%96%97%E6%B3%95-C2410C)
 
   > **来源:** arXiv / WWW 2026 · 2025-10-29 · `arxiv:2510.25758`
 
@@ -182,7 +202,7 @@
 
 - **[MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions](https://arxiv.org/abs/2509.04183)**
 
-  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A) ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
+  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A) ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) ![多智能体](https://img.shields.io/badge/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93-475569)
 
   > **来源:** arXiv · 2025-09-04 · `arxiv:2509.04183`
 
@@ -191,7 +211,7 @@
 
 - **[DiaCBT: A Long-Periodic Dialogue Corpus Guided by Cognitive Conceptualization Diagram for CBT-based Psychological Counseling](https://arxiv.org/abs/2509.02999)**
 
-  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D) ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
+  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D) ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7) ![多会话](https://img.shields.io/badge/%E5%A4%9A%E4%BC%9A%E8%AF%9D-B45309)
 
   > **来源:** arXiv · 2025-09-03 · `arxiv:2509.02999`
 
@@ -202,7 +222,7 @@
 
 - **[Toward Real-World Chinese Psychological Support Dialogues: CPsDD Dataset and a Co-Evolving Multi-Agent System](https://arxiv.org/abs/2507.07509)**
 
-  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA)
+  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![多智能体](https://img.shields.io/badge/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93-475569)
 
   > **来源:** arxiv · 2025-07-10 · `arxiv:2507.07509`
 
@@ -264,7 +284,7 @@
 
 - **[AutoCBT: An Autonomous Multi-agent Framework for Cognitive Behavioral Therapy in Psychological Counseling](https://arxiv.org/abs/2501.09426)**
 
-  ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA)
+  ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![多智能体](https://img.shields.io/badge/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93-475569)
 
   > **来源:** arXiv · 2025-01-16 · `arxiv:2501.09426`
 

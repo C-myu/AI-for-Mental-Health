@@ -55,8 +55,6 @@
   - ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC): Focuses on empathy and emotional support.
   - ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE): Evaluates models or systems on mental-health tasks.
   - ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7): Builds or evaluates with simulated clients or patients.
-- **Contribution**
-  - ![Survey](https://img.shields.io/badge/Survey-0891B2): Synthesizes prior literature.
 - **Study Design**
   - ![Multi-Session](https://img.shields.io/badge/Multi--Session-B45309): Studies interaction across multiple sessions.
   - ![Multi-Therapy](https://img.shields.io/badge/Multi--Therapy-C2410C): Covers multiple therapy frameworks.
@@ -66,6 +64,18 @@
 ## Catalog
 
 ### 2026
+
+#### July
+
+- **[Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations](https://aclanthology.org/2026.findings-acl.818/)**
+
+  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Dataset](https://img.shields.io/badge/Dataset-0F766E) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![Multi-Session](https://img.shields.io/badge/Multi--Session-B45309)
+
+  > **Source:** Findings of ACL 2026 · 2026-07 · `doi:10.18653/v1/2026.findings-acl.818`
+
+  **Authors:** Bichen Wang, Junzhe Wang, Yixin Sun, Xing Fu, Yanyan Zhao, Bing Qin
+
+  Introduces Muspsy, a synthetic multi-session psychological counseling dataset built from publicly available case reports. Its conversations follow the same client across successive sessions to represent temporal continuity and changing mental states. The accompanying Muspsy model tracks client progress and adjusts counseling goals over time, outperforming the reported baselines across multiple sessions.
 
 #### February
 
@@ -134,6 +144,16 @@
   Proposes PsyCLIENT, a client simulation framework grounded in conversational trajectory modeling. By conditioning LLM generation on predefined real-world trajectories with explicit behavior labels and content constraints, ensures diverse and realistic client interactions. Introduces PsyCLIENT-CP, the first open-source Chinese client profile dataset covering 60 counseling topics and constructed by professional counselors. Achieves approximately 95% expert confusion rate in discrimination tasks, demonstrating simulated clients are nearly indistinguishable from human clients.
   _verification pending._
 
+- **[PsychEval: A Multi-Session and Multi-Therapy Benchmark for High-Realism AI Psychological Counselor](https://arxiv.org/abs/2601.01802)**
+
+  ![Dataset](https://img.shields.io/badge/Dataset-0F766E) ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE) ![Multi-Session](https://img.shields.io/badge/Multi--Session-B45309) ![Multi-Therapy](https://img.shields.io/badge/Multi--Therapy-C2410C)
+
+  > **Source:** arXiv · 2026-01-05 · `arxiv:2601.01802`
+
+  **Authors:** Qianjun Pan, Junyi Wang, Jie Zhou, Yutao Yang, Junsong Li, Kaiyin Xu, et al.
+
+  Introduces PsychEval, a benchmark for longitudinal AI counseling that spans 6-10 sessions and evaluates multiple therapy frameworks. Its dataset covers five therapeutic modalities plus integrative therapy, with more than 2,000 client profiles and extensive professional-skill annotations. The evaluation framework uses 18 client- and counselor-level metrics and can also serve as a reinforcement-learning environment for counselor models.
+
 ### 2025
 
 #### December
@@ -171,7 +191,7 @@
 
 - **[TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling](https://arxiv.org/abs/2510.25758)**
 
-  ![Chain-of-Thought](https://img.shields.io/badge/Chain--of--Thought-4ADE80) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
+  ![Chain-of-Thought](https://img.shields.io/badge/Chain--of--Thought-4ADE80) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7) ![Multi-Session](https://img.shields.io/badge/Multi--Session-B45309) ![Multi-Therapy](https://img.shields.io/badge/Multi--Therapy-C2410C)
 
   > **Source:** arXiv / WWW 2026 · 2025-10-29 · `arxiv:2510.25758`
 
@@ -182,7 +202,7 @@
 
 - **[MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions](https://arxiv.org/abs/2509.04183)**
 
-  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A) ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE)
+  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-16A34A) ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-475569)
 
   > **Source:** arXiv · 2025-09-04 · `arxiv:2509.04183`
 
@@ -191,7 +211,7 @@
 
 - **[DiaCBT: A Long-Periodic Dialogue Corpus Guided by Cognitive Conceptualization Diagram for CBT-based Psychological Counseling](https://arxiv.org/abs/2509.02999)**
 
-  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D) ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
+  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D) ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7) ![Multi-Session](https://img.shields.io/badge/Multi--Session-B45309)
 
   > **Source:** arXiv · 2025-09-03 · `arxiv:2509.02999`
 
@@ -202,7 +222,7 @@
 
 - **[Toward Real-World Chinese Psychological Support Dialogues: CPsDD Dataset and a Co-Evolving Multi-Agent System](https://arxiv.org/abs/2507.07509)**
 
-  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA)
+  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-15803D) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-475569)
 
   > **Source:** arxiv · 2025-07-10 · `arxiv:2507.07509`
 
@@ -264,7 +284,7 @@
 
 - **[AutoCBT: An Autonomous Multi-agent Framework for Cognitive Behavioral Therapy in Psychological Counseling](https://arxiv.org/abs/2501.09426)**
 
-  ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA)
+  ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-7E22CE) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![Multi-Agent](https://img.shields.io/badge/Multi--Agent-475569)
 
   > **Source:** arXiv · 2025-01-16 · `arxiv:2501.09426`
 

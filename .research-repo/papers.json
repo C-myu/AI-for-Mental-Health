@@ -12,6 +12,52 @@
   },
   "papers": [
     {
+      "id": "doi:10.18653/v1/2026.findings-acl.818",
+      "title": "Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations",
+      "authors": [
+        "Bichen Wang",
+        "Junzhe Wang",
+        "Yixin Sun",
+        "Xing Fu",
+        "Yanyan Zhao",
+        "Bing Qin"
+      ],
+      "published": "2026-07",
+      "venue": "Findings of ACL 2026",
+      "identifiers": {
+        "arxiv": "2506.06626",
+        "doi": "10.18653/v1/2026.findings-acl.818"
+      },
+      "urls": {
+        "primary": "https://aclanthology.org/2026.findings-acl.818/",
+        "code": null
+      },
+      "status": "curated",
+      "priority": "P1",
+      "tags": [
+        "data-synthesis",
+        "dataset",
+        "dialogue-system",
+        "multi-session"
+      ],
+      "summaries": {
+        "en": "Introduces Muspsy, a synthetic multi-session psychological counseling dataset built from publicly available case reports. Its conversations follow the same client across successive sessions to represent temporal continuity and changing mental states. The accompanying Muspsy model tracks client progress and adjusts counseling goals over time, outperforming the reported baselines across multiple sessions.",
+        "zh": "提出了 Muspsy，一个基于公开心理案例报告构建的合成多会话心理咨询数据集。其对话围绕同一来访者展开连续多次咨询，以呈现时间连续性和心理状态变化。配套的 Muspsy 模型会跟踪来访者进展并动态调整咨询目标，论文报告其在多会话评测中优于基线。"
+      },
+      "evidence": [
+        {
+          "kind": "metadata",
+          "source_url": "https://aclanthology.org/2026.findings-acl.818/",
+          "checked_at": "2026-09-12"
+        }
+      ],
+      "legacy": {
+        "todo_lines": [
+          "- [ ] Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations `Dataset` `Multi-Session`"
+        ]
+      }
+    },
+    {
       "id": "arxiv:2602.21638",
       "title": "Multi-dimensional Assessment and Explainable Feedback for Counselor Responses to Client Resistance in Text-based Counseling with LLMs",
       "authors": [],
@@ -128,6 +174,59 @@
           "en": "- **PatientHub: A Unified Framework for Patient Simulation**\n\n    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)\n    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)\n\n    > **Source:** arXiv (2026.2.12) [[Link]](https://arxiv.org/pdf/2602.11684)\n\n    Focuses on patient simulation framework for training and evaluation, rather than dialogue generation for counseling. Introduces PatientHub, a unified and modular framework that standardizes the definition, composition, and deployment of 11 existing simulated patient methods, enabling cross-method benchmarking with consistent evaluation protocols. Demonstrates the framework's utility through comprehensive comparisons revealing key design trade-offs (e.g., realism vs. pedagogical utility), and proposes an extraction-based evaluation paradigm for providing actionable feedback.\n",
           "zh": "- **PatientHub: A Unified Framework for Patient Simulation**\n\n    ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE)\n    ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)\n\n    > **来源:** arXiv (2026.2.12) [[链接]](https://arxiv.org/pdf/2602.11684)\n\n    专注于用于训练和评估的患者模拟框架，而非生成咨询对话的对话系统。介绍了 PatientHub，这是一个统一且模块化的框架，标准化了 11 种现有模拟患者方法的定义、组合和部署，实现了使用一致评估协议的跨方法基准测试。通过全面的比较展示了框架的实用性，揭示了关键的设计权衡（例如，真实感 vs 教学效用），并提出了一种基于提取的评估范式以提供可操作的反馈。\n"
         }
+      }
+    },
+    {
+      "id": "arxiv:2601.01802",
+      "title": "PsychEval: A Multi-Session and Multi-Therapy Benchmark for High-Realism AI Psychological Counselor",
+      "authors": [
+        "Qianjun Pan",
+        "Junyi Wang",
+        "Jie Zhou",
+        "Yutao Yang",
+        "Junsong Li",
+        "Kaiyin Xu",
+        "Yougen Zhou",
+        "Yihan Li",
+        "Jingyuan Zhao",
+        "Qin Chen",
+        "Ningning Zhou",
+        "Kai Chen",
+        "Liang He"
+      ],
+      "published": "2026-01-05",
+      "venue": "arXiv",
+      "identifiers": {
+        "arxiv": "2601.01802",
+        "doi": null
+      },
+      "urls": {
+        "primary": "https://arxiv.org/abs/2601.01802",
+        "code": "https://github.com/ECNU-ICALK/PsychEval"
+      },
+      "status": "curated",
+      "priority": "P2",
+      "tags": [
+        "dataset",
+        "benchmark",
+        "multi-session",
+        "multi-therapy"
+      ],
+      "summaries": {
+        "en": "Introduces PsychEval, a benchmark for longitudinal AI counseling that spans 6-10 sessions and evaluates multiple therapy frameworks. Its dataset covers five therapeutic modalities plus integrative therapy, with more than 2,000 client profiles and extensive professional-skill annotations. The evaluation framework uses 18 client- and counselor-level metrics and can also serve as a reinforcement-learning environment for counselor models.",
+        "zh": "提出了 PsychEval，一个面向纵向 AI 心理咨询的基准，覆盖 6 至 10 次连续会话并评估多种治疗框架。其数据集涵盖五种治疗流派及整合疗法，包含 2,000 多个来访者画像和大量专业技能标注。评估框架设置了 18 项来访者级与咨询师级指标，也可作为咨询模型的强化学习环境。"
+      },
+      "evidence": [
+        {
+          "kind": "metadata",
+          "source_url": "https://arxiv.org/abs/2601.01802",
+          "checked_at": "2026-09-12"
+        }
+      ],
+      "legacy": {
+        "todo_lines": [
+          "- [ ] **PsychEval**: A Multi-Session and Multi-Therapy Benchmark for High-Realism AI Psychological Counselor `Benchmark` `Multi-Session` `Multi-Therapy`"
+        ]
       }
     },
     {
@@ -434,7 +533,9 @@
       "tags": [
         "chain-of-thought",
         "dialogue-system",
-        "simulated-client"
+        "simulated-client",
+        "multi-session",
+        "multi-therapy"
       ],
       "summaries": {
         "en": "Proposes TheraMind, a strategic and adaptive agent for longitudinal psychological counseling featuring a novel dual-loop architecture. The framework decouples counseling into an Intra-Session Loop for tactical dialogue management (perceiving patient state, retrieving cross-session memory, generating clinically-grounded responses) and a Cross-Session Loop for strategic therapeutic planning (evaluating therapy efficacy, adaptively switching between multiple therapy approaches like CBT, MI, EFT, and Narrative Therapy). Evaluated on 100 real clinical cases across 6 sessions, TheraMind achieves 18.2% improvement over baselines on multi-session metrics including Coherence, Flexibility, and Therapeutic Attunement, with human evaluators showing strong preference for the system.",
@@ -475,7 +576,8 @@
       "tags": [
         "data-synthesis",
         "interactive-generation",
-        "specific-therapy"
+        "specific-therapy",
+        "multi-agent"
       ],
       "summaries": {
         "en": "Proposes a novel multi-agent framework MAGneT for generating synthetic mental health counseling dialogues. The framework decomposes the counselor's response generation task into subtasks collaboratively handled by multiple specialized LLM agents (responsible for reflecting, questioning, providing solutions, and other key psychological techniques) to better capture the structure and nuances of real counseling sessions.",
@@ -517,7 +619,8 @@
         "data-synthesis",
         "scripts-generation",
         "specific-therapy",
-        "simulated-client"
+        "simulated-client",
+        "multi-session"
       ],
       "summaries": {
         "en": "This work constructed a DiaCBT psychological counseling dialogue dataset consisting of multiple sessions was constructed. Cognitive concept maps were introduced to simulate more realistic clients, and manually annotated real CBT dialogue cases were used as few-shots to guide the model in data synthesis.",
@@ -846,7 +949,8 @@
       "tags": [
         "data-synthesis",
         "scripts-generation",
-        "dialogue-system"
+        "dialogue-system",
+        "multi-agent"
       ],
       "summaries": {
         "en": "To address the problems of scarcity of Chinese psychological counseling dialogue data and the \"routinized\" responses of existing large models, this work constructed a large-scale, high-quality Chinese Psychological Support Dialogue Dataset (CPSDD) by combining expert knowledge and large-scale language models, and proposed a dialogue system (CADSS) consisting of four intelligent agents (Profiler, Summarizer, Planner, Supporter) to provide more accurate and empathetic psychological support.",
@@ -1089,7 +1193,8 @@
       "priority": null,
       "tags": [
         "specific-therapy",
-        "dialogue-system"
+        "dialogue-system",
+        "multi-agent"
       ],
       "summaries": {
         "en": "Proposes an autonomous multi-agent framework AutoCBT for cognitive behavioral therapy (CBT). The framework utilizes single-turn counseling data similar to Quora and壹心理 (Yixinli), building a general agent framework capable of generating high-quality responses in single-turn counseling scenarios, and introduces dynamic routing and supervision mechanisms to improve the quality of automated psychological counseling services.",

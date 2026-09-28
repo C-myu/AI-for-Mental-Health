@@ -12,6 +12,138 @@
   },
   "papers": [
     {
+      "id": "doi:10.18653/v1/2026.findings-acl.1146",
+      "title": "Stress-Testing Emotional Support Models: Moving from Homogeneous to Diverse Help Seekers",
+      "authors": [
+        "Chaewon Heo",
+        "Cheyon Jin",
+        "Yohan Jo"
+      ],
+      "published": "2026-07",
+      "venue": "Findings of ACL 2026",
+      "identifiers": {
+        "arxiv": "2601.07698",
+        "doi": "10.18653/v1/2026.findings-acl.1146"
+      },
+      "urls": {
+        "primary": "https://aclanthology.org/2026.findings-acl.1146/",
+        "code": "https://github.com/holi-lab/ES-Evaluation-Framework"
+      },
+      "status": "curated",
+      "priority": "P2",
+      "tags": [
+        "data-collection",
+        "dataset",
+        "emotional-support",
+        "benchmark",
+        "simulated-client"
+      ],
+      "summaries": {
+        "en": "Introduces a controllable help-seeker simulator for stress-testing emotional-support models across nine psychological and linguistic features. The authors curate 11,066 Reddit dialogues and train a Llama-3-8B-based Mixture-of-Experts model whose routing is conditioned on structured seeker profiles. The simulator achieves 0.549 macro-F1 for profile adherence and a 69.5% average expert-evaluated win rate over prior simulators; testing seven supporter models with more diverse and resistant seekers reveals substantial skill degradation and changes in model rankings. The framework is limited to single dialogues, holds profile features fixed during evaluation, and does not measure long-term outcomes.",
+        "zh": "提出一个可控的求助者模拟器，通过九项心理与语言特征对情感支持模型进行压力测试。作者整理了 11,066 组 Reddit 对话，并训练了一个基于 Llama-3-8B 的混合专家模型，依据结构化求助者画像进行路由。该模拟器的画像遵循度达到 0.549 macro-F1，在专家评估中相较既有模拟器取得平均 69.5% 的胜率；使用更多样、抵触程度更高的求助者评测七个支持模型时，结果显示模型技能显著下降且排名发生变化。该框架目前仅评估单次对话，在评测中固定画像特征，也未衡量长期效果。"
+      },
+      "evidence": [
+        {
+          "kind": "metadata",
+          "source_url": "https://aclanthology.org/2026.findings-acl.1146/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "kind": "artifact",
+          "source_url": "https://github.com/holi-lab/ES-Evaluation-Framework",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.18653/v1/2025.emnlp-main.811",
+      "title": "ESC-Judge: A Framework for Comparing Emotional Support Conversational Agents",
+      "authors": [
+        "Navid Madani",
+        "Rohini Srihari"
+      ],
+      "published": "2025-11",
+      "venue": "EMNLP 2025 Main",
+      "identifiers": {
+        "arxiv": "2505.12531",
+        "doi": "10.18653/v1/2025.emnlp-main.811"
+      },
+      "urls": {
+        "primary": "https://aclanthology.org/2025.emnlp-main.811/",
+        "code": "https://github.com/navidmdn/ESC-Judge"
+      },
+      "status": "curated",
+      "priority": "P2",
+      "tags": [
+        "emotional-support",
+        "benchmark",
+        "simulated-client"
+      ],
+      "summaries": {
+        "en": "Introduces ESC-Judge, an automated, theory-grounded framework for pairwise comparison of emotional-support agents. It synthesizes help-seeker roles, runs two candidate agents independently with the same simulated role, and uses an LLM judge with a nine-dimension rubric derived from Hill's Exploration-Insight-Action model. On 100 sampled conversation pairs, the authors report aggregated agreement with PhD-level annotators of 83-86% across the three stages; they caution that ESC-Judge is a research benchmark rather than a deployment-ready safety certification.",
+        "zh": "提出 ESC-Judge，一个用于成对比较情感支持对话智能体的自动化、理论驱动评测框架。该框架先合成求助者角色，让两个候选智能体分别与同一模拟角色对话，再由 LLM 评审依据源自 Hill“探索-领悟-行动”模型的九维量表进行比较。在抽样的 100 组对话上，作者报告其在三个阶段与博士级标注者的聚合一致率为 83%-86%；论文同时强调，ESC-Judge 是研究基准，不能替代面向实际部署的安全认证。"
+      },
+      "evidence": [
+        {
+          "kind": "metadata",
+          "source_url": "https://aclanthology.org/2025.emnlp-main.811/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "kind": "artifact",
+          "source_url": "https://github.com/navidmdn/ESC-Judge",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "id": "doi:10.18653/v1/2025.acl-long.1395",
+      "title": "Dialogue Systems for Emotional Support via Value Reinforcement",
+      "authors": [
+        "Juhee Kim",
+        "Chunghu Mok",
+        "Jisun Lee",
+        "Hyang Sook Kim",
+        "Yohan Jo"
+      ],
+      "published": "2025-07",
+      "venue": "ACL 2025 Main",
+      "identifiers": {
+        "arxiv": "2501.17182",
+        "doi": "10.18653/v1/2025.acl-long.1395"
+      },
+      "urls": {
+        "primary": "https://aclanthology.org/2025.acl-long.1395/",
+        "code": "https://github.com/holi-lab/ES-Value"
+      },
+      "status": "curated",
+      "priority": "P1",
+      "tags": [
+        "data-synthesis",
+        "data-collection",
+        "preference-learning",
+        "dialogue-system",
+        "emotional-support",
+        "simulated-client"
+      ],
+      "summaries": {
+        "en": "Introduces ES-VR, a value-driven training framework that aims to reinforce help-seekers' positive values rather than optimizing only for short-term emotional relief. A target value detector and reference generator are trained on online support conversations from Reddit; a supporter model is then trained with supervised fine-tuning and DPO on simulated dialogues, using the appearance of target values in later seeker utterances as the reward signal. In evaluations with 120 held-out simulated personas, the authors report that ES-VR outperforms most baselines in support skills and value reinforcement while remaining competitive in emotional relief. The study does not evaluate whether these effects persist longitudinally.",
+        "zh": "提出 ES-VR，一个以强化求助者积极价值观为目标的训练框架，而不是只优化短期情绪缓解。该方法利用 Reddit 在线支持对话训练目标价值检测器和参考回复生成器，再基于模拟对话对支持者模型进行监督微调和 DPO，并以目标价值是否出现在求助者后续话语中作为奖励信号。在 120 个留出的模拟角色上，作者报告 ES-VR 在支持技能和价值强化方面优于多数基线，同时保持有竞争力的情绪缓解效果；但研究尚未验证这些效果能否长期持续。"
+      },
+      "evidence": [
+        {
+          "kind": "metadata",
+          "source_url": "https://aclanthology.org/2025.acl-long.1395/",
+          "checked_at": "2026-09-28"
+        },
+        {
+          "kind": "artifact",
+          "source_url": "https://github.com/holi-lab/ES-Value",
+          "checked_at": "2026-09-28"
+        }
+      ]
+    },
+    {
       "id": "doi:10.18653/v1/2026.findings-acl.818",
       "title": "Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations",
       "authors": [

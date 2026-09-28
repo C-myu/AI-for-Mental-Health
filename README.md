@@ -67,6 +67,16 @@
 
 #### July
 
+- **[Stress-Testing Emotional Support Models: Moving from Homogeneous to Diverse Help Seekers](https://aclanthology.org/2026.findings-acl.1146/)**
+
+  ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB) ![Dataset](https://img.shields.io/badge/Dataset-0F766E) ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC) ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
+
+  > **Source:** Findings of ACL 2026 · 2026-07 · `doi:10.18653/v1/2026.findings-acl.1146`
+
+  **Authors:** Chaewon Heo, Cheyon Jin, Yohan Jo
+
+  Introduces a controllable help-seeker simulator for stress-testing emotional-support models across nine psychological and linguistic features. The authors curate 11,066 Reddit dialogues and train a Llama-3-8B-based Mixture-of-Experts model whose routing is conditioned on structured seeker profiles. The simulator achieves 0.549 macro-F1 for profile adherence and a 69.5% average expert-evaluated win rate over prior simulators; testing seven supporter models with more diverse and resistant seekers reveals substantial skill degradation and changes in model rankings. The framework is limited to single dialogues, holds profile features fixed during evaluation, and does not measure long-term outcomes.
+
 - **[Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations](https://aclanthology.org/2026.findings-acl.818/)**
 
   ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Dataset](https://img.shields.io/badge/Dataset-0F766E) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![Multi-Session](https://img.shields.io/badge/Multi--Session-B45309)
@@ -187,6 +197,16 @@
   To address the issues of unrealistic client simulations, static and simplistic interaction formats, and a lack of professional depth in assessment indicators in existing large-scale psychological counseling evaluation models, this paper proposes CARE-Bench. This is a dynamic, multi-turn dialogue benchmark comprising 500 simulated client profiles derived from real counseling cases. The core of this method lies in employing an "Expert-Principle-Guided Simulation," where psychologists customize specific behavioral guidelines for each profile to constrain the LLM (Lesson-Led Model) posing as the client, thereby ensuring high fidelity and clinical authenticity in the interaction process. For assessment, the paper introduces multidimensional psychological scales including Working Alliance (WAI), Embrace Understanding (BLRI), and Counseling Skills-Responsiveness (CCS-R).
   _verification pending._
 
+- **[ESC-Judge: A Framework for Comparing Emotional Support Conversational Agents](https://aclanthology.org/2025.emnlp-main.811/)**
+
+  ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC) ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
+
+  > **Source:** EMNLP 2025 Main · 2025-11 · `doi:10.18653/v1/2025.emnlp-main.811`
+
+  **Authors:** Navid Madani, Rohini Srihari
+
+  Introduces ESC-Judge, an automated, theory-grounded framework for pairwise comparison of emotional-support agents. It synthesizes help-seeker roles, runs two candidate agents independently with the same simulated role, and uses an LLM judge with a nine-dimension rubric derived from Hill's Exploration-Insight-Action model. On 100 sampled conversation pairs, the authors report aggregated agreement with PhD-level annotators of 83-86% across the three stages; they caution that ESC-Judge is a research benchmark rather than a deployment-ready safety certification.
+
 #### October
 
 - **[TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling](https://arxiv.org/abs/2510.25758)**
@@ -228,6 +248,16 @@
 
   To address the problems of scarcity of Chinese psychological counseling dialogue data and the "routinized" responses of existing large models, this work constructed a large-scale, high-quality Chinese Psychological Support Dialogue Dataset (CPSDD) by combining expert knowledge and large-scale language models, and proposed a dialogue system (CADSS) consisting of four intelligent agents (Profiler, Summarizer, Planner, Supporter) to provide more accurate and empathetic psychological support.
   _verification pending._
+
+- **[Dialogue Systems for Emotional Support via Value Reinforcement](https://aclanthology.org/2025.acl-long.1395/)**
+
+  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB) ![Preference-Learning](https://img.shields.io/badge/Preference--Learning-22C55E) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
+
+  > **Source:** ACL 2025 Main · 2025-07 · `doi:10.18653/v1/2025.acl-long.1395`
+
+  **Authors:** Juhee Kim, Chunghu Mok, Jisun Lee, Hyang Sook Kim, Yohan Jo
+
+  Introduces ES-VR, a value-driven training framework that aims to reinforce help-seekers' positive values rather than optimizing only for short-term emotional relief. A target value detector and reference generator are trained on online support conversations from Reddit; a supporter model is then trained with supervised fine-tuning and DPO on simulated dialogues, using the appearance of target values in later seeker utterances as the reward signal. In evaluations with 120 held-out simulated personas, the authors report that ES-VR outperforms most baselines in support skills and value reinforcement while remaining competitive in emotional relief. The study does not evaluate whether these effects persist longitudinally.
 
 #### May
 

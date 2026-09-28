@@ -67,6 +67,16 @@
 
 #### 7月
 
+- **[Stress-Testing Emotional Support Models: Moving from Homogeneous to Diverse Help Seekers](https://aclanthology.org/2026.findings-acl.1146/)**
+
+  ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB) ![数据集](https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E9%9B%86-0F766E) ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC) ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
+
+  > **来源:** Findings of ACL 2026 · 2026-07 · `doi:10.18653/v1/2026.findings-acl.1146`
+
+  **作者:** Chaewon Heo, Cheyon Jin, Yohan Jo
+
+  提出一个可控的求助者模拟器，通过九项心理与语言特征对情感支持模型进行压力测试。作者整理了 11,066 组 Reddit 对话，并训练了一个基于 Llama-3-8B 的混合专家模型，依据结构化求助者画像进行路由。该模拟器的画像遵循度达到 0.549 macro-F1，在专家评估中相较既有模拟器取得平均 69.5% 的胜率；使用更多样、抵触程度更高的求助者评测七个支持模型时，结果显示模型技能显著下降且排名发生变化。该框架目前仅评估单次对话，在评测中固定画像特征，也未衡量长期效果。
+
 - **[Psychological Counseling Cannot Be Achieved Overnight: Automated Psychological Counseling Through Multi-Session Conversations](https://aclanthology.org/2026.findings-acl.818/)**
 
   ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![数据集](https://img.shields.io/badge/%E6%95%B0%E6%8D%AE%E9%9B%86-0F766E) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![多会话](https://img.shields.io/badge/%E5%A4%9A%E4%BC%9A%E8%AF%9D-B45309)
@@ -187,6 +197,16 @@
   为了解决现有大规模心理咨询评估模型中来访者模拟不真实、交互形式静态单一以及缺乏专业深度的评估指标等问题，本文提出了 CARE-Bench。这是一个动态的多轮对话基准，包含 500 个源自真实咨询案例的模拟来访者档案。该方法的核心在于采用“专家原则指导的模拟”，心理学家为每个档案定制特定的行为准则来约束扮演来访者的 LLM，从而确保交互过程中的高保真度和临床真实性。在评估方面，本文引入了包括工作同盟 (WAI)、共情理解 (BLRI) 和咨询技巧响应性 (CCS-R) 在内的多维心理量表。
   _待核验._
 
+- **[ESC-Judge: A Framework for Comparing Emotional Support Conversational Agents](https://aclanthology.org/2025.emnlp-main.811/)**
+
+  ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC) ![Benchmark](https://img.shields.io/badge/Benchmark-D8B4FE) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
+
+  > **来源:** EMNLP 2025 Main · 2025-11 · `doi:10.18653/v1/2025.emnlp-main.811`
+
+  **作者:** Navid Madani, Rohini Srihari
+
+  提出 ESC-Judge，一个用于成对比较情感支持对话智能体的自动化、理论驱动评测框架。该框架先合成求助者角色，让两个候选智能体分别与同一模拟角色对话，再由 LLM 评审依据源自 Hill“探索-领悟-行动”模型的九维量表进行比较。在抽样的 100 组对话上，作者报告其在三个阶段与博士级标注者的聚合一致率为 83%-86%；论文同时强调，ESC-Judge 是研究基准，不能替代面向实际部署的安全认证。
+
 #### 10月
 
 - **[TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling](https://arxiv.org/abs/2510.25758)**
@@ -228,6 +248,16 @@
 
   为了解决中文心理咨询对话数据稀缺和现有大模型回复“套路化”的问题，这项工作结合专家知识和大规模语言模型构建了大规模、高质量的中文心理支持对话数据集 (CPSDD)，并提出了由四个智能体 (Profiler, Summarizer, Planner, Supporter) 组成的对话系统 (CADSS)，以提供更准确和富有同理心的心理支持。
   _待核验._
+
+- **[Dialogue Systems for Emotional Support via Value Reinforcement](https://aclanthology.org/2025.acl-long.1395/)**
+
+  ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-1D4ED8) ![Data Collection](https://img.shields.io/badge/Data_Collection-2563EB) ![Preference-Learning](https://img.shields.io/badge/Preference--Learning-22C55E) ![Dialogue System](https://img.shields.io/badge/Dialogue_System-9333EA) ![Emotional Support](https://img.shields.io/badge/Emotional_Support-C084FC) ![Simulated Client](https://img.shields.io/badge/Simulated_Client-B489C7)
+
+  > **来源:** ACL 2025 Main · 2025-07 · `doi:10.18653/v1/2025.acl-long.1395`
+
+  **作者:** Juhee Kim, Chunghu Mok, Jisun Lee, Hyang Sook Kim, Yohan Jo
+
+  提出 ES-VR，一个以强化求助者积极价值观为目标的训练框架，而不是只优化短期情绪缓解。该方法利用 Reddit 在线支持对话训练目标价值检测器和参考回复生成器，再基于模拟对话对支持者模型进行监督微调和 DPO，并以目标价值是否出现在求助者后续话语中作为奖励信号。在 120 个留出的模拟角色上，作者报告 ES-VR 在支持技能和价值强化方面优于多数基线，同时保持有竞争力的情绪缓解效果；但研究尚未验证这些效果能否长期持续。
 
 #### 5月
 
